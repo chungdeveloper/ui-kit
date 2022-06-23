@@ -64,8 +64,8 @@
             <com.chungld.uipack.text.TrpTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:trpStrikeThrough="@{false}"
                 android:text="h4"
+                app:trpStrikeThrough="@{false}"
                 app:trpTextStyle="h4"
                 tools:ignore="HardcodedText" />
 
@@ -156,6 +156,110 @@
                 app:trpHtmlUnderLine="false"
                 app:trpWeight="regular" />
 
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="display_l"
+                app:trpTextStyle="display_l"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="display_m"
+                app:trpTextStyle="display_m"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="display_s"
+                app:trpTextStyle="display_s"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="headline_l"
+                app:trpTextStyle="headline_l"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="headline_m"
+                app:trpTextStyle="headline_m"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="headline_s"
+                app:trpTextStyle="headline_s"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="title_l"
+                app:trpTextStyle="title_l"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="title_m"
+                app:trpTextStyle="title_m"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="title_s"
+                app:trpTextStyle="title_s"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="label_l"
+                app:trpTextStyle="label_l"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="label_m"
+                app:trpTextStyle="label_m"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="label_s"
+                app:trpTextStyle="label_s"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="body_l"
+                app:trpTextStyle="body_l"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="body_m"
+                app:trpTextStyle="body_m"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="body_s"
+                app:trpTextStyle="body_s"
+                tools:ignore="HardcodedText" />
         </LinearLayout>
     </ScrollView>
 </layout>

@@ -72,4 +72,65 @@
     <attr name="trpTextOVERLINEMediumAppearance" format="reference" />
     <attr name="trpTextNotifyMediumAppearance" format="reference" />
 
+    <attr name="trpTextDISPLAY_MDefaultAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_MLightAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_MRegularAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_MMediumAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_LDefaultAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_LLightAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_LRegularAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_LMediumAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_SDefaultAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_SLightAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_SRegularAppearance" format="reference" />
+    <attr name="trpTextDISPLAY_SMediumAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_MDefaultAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_MLightAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_MRegularAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_MMediumAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_LDefaultAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_LLightAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_LRegularAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_LMediumAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_SDefaultAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_SLightAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_SRegularAppearance" format="reference" />
+    <attr name="trpTextHEADLINE_SMediumAppearance" format="reference" />
+    <attr name="trpTextTITLE_MDefaultAppearance" format="reference" />
+    <attr name="trpTextTITLE_MLightAppearance" format="reference" />
+    <attr name="trpTextTITLE_MRegularAppearance" format="reference" />
+    <attr name="trpTextTITLE_MMediumAppearance" format="reference" />
+    <attr name="trpTextTITLE_LDefaultAppearance" format="reference" />
+    <attr name="trpTextTITLE_LLightAppearance" format="reference" />
+    <attr name="trpTextTITLE_LRegularAppearance" format="reference" />
+    <attr name="trpTextTITLE_LMediumAppearance" format="reference" />
+    <attr name="trpTextTITLE_SDefaultAppearance" format="reference" />
+    <attr name="trpTextTITLE_SLightAppearance" format="reference" />
+    <attr name="trpTextTITLE_SRegularAppearance" format="reference" />
+    <attr name="trpTextTITLE_SMediumAppearance" format="reference" />
+    <attr name="trpTextLABEL_MDefaultAppearance" format="reference" />
+    <attr name="trpTextLABEL_MLightAppearance" format="reference" />
+    <attr name="trpTextLABEL_MRegularAppearance" format="reference" />
+    <attr name="trpTextLABEL_MMediumAppearance" format="reference" />
+    <attr name="trpTextLABEL_LDefaultAppearance" format="reference" />
+    <attr name="trpTextLABEL_LLightAppearance" format="reference" />
+    <attr name="trpTextLABEL_LRegularAppearance" format="reference" />
+    <attr name="trpTextLABEL_LMediumAppearance" format="reference" />
+    <attr name="trpTextLABEL_SDefaultAppearance" format="reference" />
+    <attr name="trpTextLABEL_SLightAppearance" format="reference" />
+    <attr name="trpTextLABEL_SRegularAppearance" format="reference" />
+    <attr name="trpTextLABEL_SMediumAppearance" format="reference" />
+    <attr name="trpTextBODY_MDefaultAppearance" format="reference" />
+    <attr name="trpTextBODY_MLightAppearance" format="reference" />
+    <attr name="trpTextBODY_MRegularAppearance" format="reference" />
+    <attr name="trpTextBODY_MMediumAppearance" format="reference" />
+    <attr name="trpTextBODY_LDefaultAppearance" format="reference" />
+    <attr name="trpTextBODY_LLightAppearance" format="reference" />
+    <attr name="trpTextBODY_LRegularAppearance" format="reference" />
+    <attr name="trpTextBODY_LMediumAppearance" format="reference" />
+    <attr name="trpTextBODY_SDefaultAppearance" format="reference" />
+    <attr name="trpTextBODY_SLightAppearance" format="reference" />
+    <attr name="trpTextBODY_SRegularAppearance" format="reference" />
+    <attr name="trpTextBODY_SMediumAppearance" format="reference" />
+
 </resources>

@@ -74,6 +74,71 @@
         <item name="trpTextOVERLINEMediumAppearance">@style/trpTextOverLine.Medium</item>
         <item name="trpTextNotifyMediumAppearance">@style/trpTextNotify.Medium</item>
 
+        <!--    Text Style  Material 3    -->
+        <item name="trpTextDISPLAY_LDefaultAppearance">@style/trpTextDISPLAY_L</item>
+        <item name="trpTextDISPLAY_MDefaultAppearance">@style/trpTextDISPLAY_M</item>
+        <item name="trpTextDISPLAY_SDefaultAppearance">@style/trpTextDISPLAY_S</item>
+        <item name="trpTextHEADLINE_LDefaultAppearance">@style/trpTextHEADLINE_L</item>
+        <item name="trpTextHEADLINE_MDefaultAppearance">@style/trpTextHEADLINE_M</item>
+        <item name="trpTextHEADLINE_SDefaultAppearance">@style/trpTextHEADLINE_S</item>
+        <item name="trpTextTITLE_LDefaultAppearance">@style/trpTextTITLE_L</item>
+        <item name="trpTextTITLE_MDefaultAppearance">@style/trpTextTITLE_M.Medium</item>
+        <item name="trpTextTITLE_SDefaultAppearance">@style/trpTextTITLE_S.Medium</item>
+        <item name="trpTextLABEL_LDefaultAppearance">@style/trpTextLABEL_L.Medium</item>
+        <item name="trpTextLABEL_MDefaultAppearance">@style/trpTextLABEL_M.Medium</item>
+        <item name="trpTextLABEL_SDefaultAppearance">@style/trpTextLABEL_S.Medium</item>
+        <item name="trpTextBODY_LDefaultAppearance">@style/trpTextBODY_L</item>
+        <item name="trpTextBODY_MDefaultAppearance">@style/trpTextBODY_M</item>
+        <item name="trpTextBODY_SDefaultAppearance">@style/trpTextBODY_S</item>
+
+        <item name="trpTextDISPLAY_LLightAppearance">@style/trpTextDISPLAY_L.Light</item>
+        <item name="trpTextDISPLAY_MLightAppearance">@style/trpTextDISPLAY_M.Light</item>
+        <item name="trpTextDISPLAY_SLightAppearance">@style/trpTextDISPLAY_S.Light</item>
+        <item name="trpTextHEADLINE_LLightAppearance">@style/trpTextHEADLINE_L.Light</item>
+        <item name="trpTextHEADLINE_MLightAppearance">@style/trpTextHEADLINE_M.Light</item>
+        <item name="trpTextHEADLINE_SLightAppearance">@style/trpTextHEADLINE_S.Light</item>
+        <item name="trpTextTITLE_LLightAppearance">@style/trpTextTITLE_L.Light</item>
+        <item name="trpTextTITLE_MLightAppearance">@style/trpTextTITLE_M.Light</item>
+        <item name="trpTextTITLE_SLightAppearance">@style/trpTextTITLE_S.Light</item>
+        <item name="trpTextLABEL_LLightAppearance">@style/trpTextLABEL_L.Light</item>
+        <item name="trpTextLABEL_MLightAppearance">@style/trpTextLABEL_M.Light</item>
+        <item name="trpTextLABEL_SLightAppearance">@style/trpTextLABEL_S.Light</item>
+        <item name="trpTextBODY_LLightAppearance">@style/trpTextBODY_L.Light</item>
+        <item name="trpTextBODY_MLightAppearance">@style/trpTextBODY_M.Light</item>
+        <item name="trpTextBODY_SLightAppearance">@style/trpTextBODY_S.Light</item>
+
+        <item name="trpTextDISPLAY_LRegularAppearance">@style/trpTextDISPLAY_L</item>
+        <item name="trpTextDISPLAY_MRegularAppearance">@style/trpTextDISPLAY_M</item>
+        <item name="trpTextDISPLAY_SRegularAppearance">@style/trpTextDISPLAY_S</item>
+        <item name="trpTextHEADLINE_LRegularAppearance">@style/trpTextHEADLINE_L</item>
+        <item name="trpTextHEADLINE_MRegularAppearance">@style/trpTextHEADLINE_M</item>
+        <item name="trpTextHEADLINE_SRegularAppearance">@style/trpTextHEADLINE_S</item>
+        <item name="trpTextTITLE_LRegularAppearance">@style/trpTextTITLE_L</item>
+        <item name="trpTextTITLE_MRegularAppearance">@style/trpTextTITLE_M</item>
+        <item name="trpTextTITLE_SRegularAppearance">@style/trpTextTITLE_S</item>
+        <item name="trpTextLABEL_LRegularAppearance">@style/trpTextLABEL_L</item>
+        <item name="trpTextLABEL_MRegularAppearance">@style/trpTextLABEL_M</item>
+        <item name="trpTextLABEL_SRegularAppearance">@style/trpTextLABEL_S</item>
+        <item name="trpTextBODY_LRegularAppearance">@style/trpTextBODY_L</item>
+        <item name="trpTextBODY_MRegularAppearance">@style/trpTextBODY_M</item>
+        <item name="trpTextBODY_SRegularAppearance">@style/trpTextBODY_S</item>
+
+        <item name="trpTextDISPLAY_LMediumAppearance">@style/trpTextDISPLAY_L.Medium</item>
+        <item name="trpTextDISPLAY_MMediumAppearance">@style/trpTextDISPLAY_M.Medium</item>
+        <item name="trpTextDISPLAY_SMediumAppearance">@style/trpTextDISPLAY_S.Medium</item>
+        <item name="trpTextHEADLINE_LMediumAppearance">@style/trpTextHEADLINE_L.Medium</item>
+        <item name="trpTextHEADLINE_MMediumAppearance">@style/trpTextHEADLINE_M.Medium</item>
+        <item name="trpTextHEADLINE_SMediumAppearance">@style/trpTextHEADLINE_S.Medium</item>
+        <item name="trpTextTITLE_LMediumAppearance">@style/trpTextTITLE_L.Medium</item>
+        <item name="trpTextTITLE_MMediumAppearance">@style/trpTextTITLE_M.Medium</item>
+        <item name="trpTextTITLE_SMediumAppearance">@style/trpTextTITLE_S.Medium</item>
+        <item name="trpTextLABEL_LMediumAppearance">@style/trpTextLABEL_L.Medium</item>
+        <item name="trpTextLABEL_MMediumAppearance">@style/trpTextLABEL_M.Medium</item>
+        <item name="trpTextLABEL_SMediumAppearance">@style/trpTextLABEL_S.Medium</item>
+        <item name="trpTextBODY_LMediumAppearance">@style/trpTextBODY_L.Medium</item>
+        <item name="trpTextBODY_MMediumAppearance">@style/trpTextBODY_M.Medium</item>
+        <item name="trpTextBODY_SMediumAppearance">@style/trpTextBODY_S.Medium</item>
+
     </style>
 
     <style name="TrpBaseThemeStyle">

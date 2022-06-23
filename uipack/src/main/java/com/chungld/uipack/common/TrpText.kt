@@ -103,7 +103,98 @@ private val styleMapping = mapOf(
         R.attr.trpTextNotifyLightAppearance,
         R.attr.trpTextNotifyRegularAppearance,
         R.attr.trpTextNotifyMediumAppearance
-    )
+    ),
+
+    TrpText.DISPLAY_M to arrayListOf(
+        R.attr.trpTextDISPLAY_MDefaultAppearance,
+        R.attr.trpTextDISPLAY_MLightAppearance,
+        R.attr.trpTextDISPLAY_MRegularAppearance,
+        R.attr.trpTextDISPLAY_MMediumAppearance
+    ),
+    TrpText.DISPLAY_L to arrayListOf(
+        R.attr.trpTextDISPLAY_LDefaultAppearance,
+        R.attr.trpTextDISPLAY_LLightAppearance,
+        R.attr.trpTextDISPLAY_LRegularAppearance,
+        R.attr.trpTextDISPLAY_LMediumAppearance
+    ),
+    TrpText.DISPLAY_S to arrayListOf(
+        R.attr.trpTextDISPLAY_SDefaultAppearance,
+        R.attr.trpTextDISPLAY_SLightAppearance,
+        R.attr.trpTextDISPLAY_SRegularAppearance,
+        R.attr.trpTextDISPLAY_SMediumAppearance
+    ),
+    TrpText.HEADLINE_M to arrayListOf(
+        R.attr.trpTextHEADLINE_MDefaultAppearance,
+        R.attr.trpTextHEADLINE_MLightAppearance,
+        R.attr.trpTextHEADLINE_MRegularAppearance,
+        R.attr.trpTextHEADLINE_MMediumAppearance
+    ),
+    TrpText.HEADLINE_L to arrayListOf(
+        R.attr.trpTextHEADLINE_LDefaultAppearance,
+        R.attr.trpTextHEADLINE_LLightAppearance,
+        R.attr.trpTextHEADLINE_LRegularAppearance,
+        R.attr.trpTextHEADLINE_LMediumAppearance
+    ),
+    TrpText.HEADLINE_S to arrayListOf(
+        R.attr.trpTextHEADLINE_SDefaultAppearance,
+        R.attr.trpTextHEADLINE_SLightAppearance,
+        R.attr.trpTextHEADLINE_SRegularAppearance,
+        R.attr.trpTextHEADLINE_SMediumAppearance
+    ),
+    TrpText.TITLE_M to arrayListOf(
+        R.attr.trpTextTITLE_MDefaultAppearance,
+        R.attr.trpTextTITLE_MLightAppearance,
+        R.attr.trpTextTITLE_MRegularAppearance,
+        R.attr.trpTextTITLE_MMediumAppearance
+    ),
+    TrpText.TITLE_L to arrayListOf(
+        R.attr.trpTextTITLE_LDefaultAppearance,
+        R.attr.trpTextTITLE_LLightAppearance,
+        R.attr.trpTextTITLE_LRegularAppearance,
+        R.attr.trpTextTITLE_LMediumAppearance
+    ),
+    TrpText.TITLE_S to arrayListOf(
+        R.attr.trpTextTITLE_SDefaultAppearance,
+        R.attr.trpTextTITLE_SLightAppearance,
+        R.attr.trpTextTITLE_SRegularAppearance,
+        R.attr.trpTextTITLE_SMediumAppearance
+    ),
+    TrpText.LABEL_M to arrayListOf(
+        R.attr.trpTextLABEL_MDefaultAppearance,
+        R.attr.trpTextLABEL_MLightAppearance,
+        R.attr.trpTextLABEL_MRegularAppearance,
+        R.attr.trpTextLABEL_MMediumAppearance
+    ),
+    TrpText.LABEL_L to arrayListOf(
+        R.attr.trpTextLABEL_LDefaultAppearance,
+        R.attr.trpTextLABEL_LLightAppearance,
+        R.attr.trpTextLABEL_LRegularAppearance,
+        R.attr.trpTextLABEL_LMediumAppearance
+    ),
+    TrpText.LABEL_S to arrayListOf(
+        R.attr.trpTextLABEL_SDefaultAppearance,
+        R.attr.trpTextLABEL_SLightAppearance,
+        R.attr.trpTextLABEL_SRegularAppearance,
+        R.attr.trpTextLABEL_SMediumAppearance
+    ),
+    TrpText.BODY_M to arrayListOf(
+        R.attr.trpTextBODY_MDefaultAppearance,
+        R.attr.trpTextBODY_MLightAppearance,
+        R.attr.trpTextBODY_MRegularAppearance,
+        R.attr.trpTextBODY_MMediumAppearance
+    ),
+    TrpText.BODY_L to arrayListOf(
+        R.attr.trpTextBODY_LDefaultAppearance,
+        R.attr.trpTextBODY_LLightAppearance,
+        R.attr.trpTextBODY_LRegularAppearance,
+        R.attr.trpTextBODY_LMediumAppearance
+    ),
+    TrpText.BODY_S to arrayListOf(
+        R.attr.trpTextBODY_SDefaultAppearance,
+        R.attr.trpTextBODY_SLightAppearance,
+        R.attr.trpTextBODY_SRegularAppearance,
+        R.attr.trpTextBODY_SMediumAppearance
+    ),
 )
 
 open class TrpText {
@@ -121,6 +212,9 @@ open class TrpText {
     /**
      * Text style material:
      * [H1], [H2], [H3], [H4], [H5], [H6], [SUB1], [SUB2], [SUB3], [SUB4], [BODY1], [BODY2], [BUTTON], [CAPTION], [OVERLINE], [NOTIFY]
+     *
+     * Text style material 3:
+     * [DISPLAY_M], [DISPLAY_L], [DISPLAY_S], [HEADLINE_M], [HEADLINE_L], [HEADLINE_S], [TITLE_M], [TITLE_L], [TITLE_S], [LABEL_M], [LABEL_L], [LABEL_S], [BODY_M], [BODY_L], [BODY_S]
      */
     @IntDef(
         H1,
@@ -139,6 +233,21 @@ open class TrpText {
         CAPTION,
         OVERLINE,
         NOTIFY,
+        DISPLAY_M,
+        DISPLAY_L,
+        DISPLAY_S,
+        HEADLINE_M,
+        HEADLINE_L,
+        HEADLINE_S,
+        TITLE_M,
+        TITLE_L,
+        TITLE_S,
+        LABEL_M,
+        LABEL_L,
+        LABEL_S,
+        BODY_M,
+        BODY_L,
+        BODY_S,
     )
     annotation class Styles
 
@@ -171,6 +280,30 @@ open class TrpText {
         const val RTL = 1
         const val INHERIT = 2
         const val LOCALE = 3
+
+        /**
+         * Typography material 3
+         */
+
+        const val DISPLAY_M = 16
+        const val DISPLAY_L = 17
+        const val DISPLAY_S = 18
+
+        const val HEADLINE_L = 30
+        const val HEADLINE_M = 19
+        const val HEADLINE_S = 20
+
+        const val TITLE_M = 21
+        const val TITLE_L = 22
+        const val TITLE_S = 23
+
+        const val LABEL_M = 24
+        const val LABEL_L = 25
+        const val LABEL_S = 26
+
+        const val BODY_M = 27
+        const val BODY_L = 28
+        const val BODY_S = 29
 
         /**
          * get textStyleID attributes from textStyle, weight.

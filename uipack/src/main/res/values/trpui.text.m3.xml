@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="trpTextSizeDISPLAY_M">45sp</dimen>
+    <dimen name="trpTextSizeDISPLAY_L">57sp</dimen>
+    <dimen name="trpTextSizeDISPLAY_S">36sp</dimen>
+    <dimen name="trpTextSizeHEADLINE_M">28sp</dimen>
+    <dimen name="trpTextSizeHEADLINE_L">32sp</dimen>
+    <dimen name="trpTextSizeHEADLINE_S">24sp</dimen>
+    <dimen name="trpTextSizeTITLE_M">16sp</dimen>
+    <dimen name="trpTextSizeTITLE_L">22sp</dimen>
+    <dimen name="trpTextSizeTITLE_S">14sp</dimen>
+    <dimen name="trpTextSizeLABEL_M">12sp</dimen>
+    <dimen name="trpTextSizeLABEL_L">14sp</dimen>
+    <dimen name="trpTextSizeLABEL_S">11sp</dimen>
+    <dimen name="trpTextSizeBODY_M">14sp</dimen>
+    <dimen name="trpTextSizeBODY_L">16sp</dimen>
+    <dimen name="trpTextSizeBODY_S">12sp</dimen>
+
+    <style name="trpTextDISPLAY_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeDISPLAY_M</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextDISPLAY_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeDISPLAY_L</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextDISPLAY_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeDISPLAY_S</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextHEADLINE_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeHEADLINE_M</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextHEADLINE_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeHEADLINE_L</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextHEADLINE_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeHEADLINE_S</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextTITLE_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeTITLE_M</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextTITLE_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeTITLE_L</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextTITLE_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeTITLE_S</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextLABEL_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeLABEL_M</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextLABEL_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeLABEL_L</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextLABEL_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeLABEL_S</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextBODY_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeBODY_M</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextBODY_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeBODY_L</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextBODY_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeBODY_S</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextDISPLAY_M.Light" parent="trpTextDISPLAY_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextDISPLAY_L.Light" parent="trpTextDISPLAY_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextDISPLAY_S.Light" parent="trpTextDISPLAY_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextHEADLINE_M.Light" parent="trpTextHEADLINE_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextHEADLINE_L.Light" parent="trpTextHEADLINE_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextHEADLINE_S.Light" parent="trpTextHEADLINE_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextTITLE_M.Light" parent="trpTextTITLE_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextTITLE_L.Light" parent="trpTextTITLE_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextTITLE_S.Light" parent="trpTextTITLE_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextLABEL_M.Light" parent="trpTextLABEL_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextLABEL_L.Light" parent="trpTextLABEL_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextLABEL_S.Light" parent="trpTextLABEL_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextBODY_M.Light" parent="trpTextBODY_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextBODY_L.Light" parent="trpTextBODY_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextBODY_S.Light" parent="trpTextBODY_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextDISPLAY_M.Medium" parent="trpTextDISPLAY_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextDISPLAY_L.Medium" parent="trpTextDISPLAY_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextDISPLAY_S.Medium" parent="trpTextDISPLAY_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextHEADLINE_M.Medium" parent="trpTextHEADLINE_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextHEADLINE_L.Medium" parent="trpTextHEADLINE_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextHEADLINE_S.Medium" parent="trpTextHEADLINE_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextTITLE_M.Medium" parent="trpTextTITLE_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextTITLE_L.Medium" parent="trpTextTITLE_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextTITLE_S.Medium" parent="trpTextTITLE_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextLABEL_M.Medium" parent="trpTextLABEL_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextLABEL_L.Medium" parent="trpTextLABEL_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextLABEL_S.Medium" parent="trpTextLABEL_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextBODY_M.Medium" parent="trpTextBODY_M">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextBODY_L.Medium" parent="trpTextBODY_L">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextBODY_S.Medium" parent="trpTextBODY_S">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+</resources>

@@ -18,26 +18,63 @@
         <activity android:name="com.chungld.uikit.BadgeViewActivity" />
         <activity
             android:name="com.chungld.uikit.CalendarActivity"
+            android:exported="false"
             android:label="@string/title_activity_calendar"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.chungld.uikit.BottomNavigationActivity" />
-        <activity android:name="com.chungld.uikit.TabLayoutActivity" />
-        <activity android:name="com.chungld.uikit.RatingPointActivity" />
-        <activity android:name="com.chungld.uikit.SeekBarActivity" />
-        <activity android:name="com.chungld.uikit.FloatActivity" />
-        <activity android:name="com.chungld.uikit.SpinnerActivity" />
-        <activity android:name="com.chungld.uikit.ChipActivity" />
-        <activity android:name="com.chungld.uikit.RatingActivity" />
-        <activity android:name="com.chungld.uikit.IconActivity" />
-        <activity android:name="com.chungld.uikit.CheckBoxActivity" />
-        <activity android:name="com.chungld.uikit.CarcActivity" />
-        <activity android:name="com.chungld.uikit.SwitchActivity" />
-        <activity android:name="com.chungld.uikit.ButtonActivity" />
-        <activity android:name="com.chungld.uikit.SnackBarActivity" />
-        <activity android:name="com.chungld.uikit.TextActivity" />
-        <activity android:name="com.chungld.uikit.rvadapter.multi.JavaRvMultiTypeActivity" />
-        <activity android:name="com.chungld.uikit.rvadapter.single.RvSingleTypeActivity" />
-        <activity android:name="com.chungld.uikit.MainActivity">
+        <activity
+            android:name="com.chungld.uikit.BottomNavigationActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.TabLayoutActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.RatingPointActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.SeekBarActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.FloatActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.SpinnerActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.ChipActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.RatingActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.IconActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.CheckBoxActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.CarcActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.SwitchActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.ButtonActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.SnackBarActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.TextActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.rvadapter.multi.JavaRvMultiTypeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.rvadapter.single.RvSingleTypeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.chungld.uikit.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -18,6 +18,23 @@
             <enum name="notify" value="13" />
             <enum name="sub3" value="14" />
             <enum name="sub4" value="15" />
+
+            <!-- Attrs textStyle Material 3 -->
+            <enum name="display_l" value="17" />
+            <enum name="display_m" value="16" />
+            <enum name="display_s" value="18" />
+            <enum name="headline_l" value="30" />
+            <enum name="headline_m" value="19" />
+            <enum name="headline_s" value="20" />
+            <enum name="title_l" value="22" />
+            <enum name="title_m" value="21" />
+            <enum name="title_s" value="23" />
+            <enum name="label_l" value="25" />
+            <enum name="label_m" value="24" />
+            <enum name="label_s" value="26" />
+            <enum name="body_l" value="28" />
+            <enum name="body_m" value="27" />
+            <enum name="body_s" value="29" />
         </attr>
 
         <attr name="trpWeight" format="enum">
