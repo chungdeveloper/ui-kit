@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SeekBarActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/tvHeader0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Single Mode"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.seekbar.TrpSeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:trpMax="1000"
+                app:trpMin="0"
+                app:trp_mode="single"
+                app:trp_progress_drawable="@drawable/v2_progressbar_drawable"
+                app:trp_progress_drawable_default="@drawable/v2_progressbar_drawable_default"
+                app:trp_progress_height="4dp"
+                app:trp_thumb_drawable="@drawable/v2_seekbar_thumb" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Range Mode"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.seekbar.TrpSeekBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:trpProgressPrimary="@{30}"
+                app:trp_mode="range" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

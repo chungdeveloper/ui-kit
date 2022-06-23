@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RatingActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rating small"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.rating.star.TrpRatingBar
+                android:id="@+id/rate1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="0.1" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="rating small"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.rating.star.TrpRatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="0.1"
+                app:trpDrawableProgress="@mipmap/ic_launcher"
+                app:trpRatingSize="normal" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="rating custom size 40dp with tint"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.rating.star.TrpRatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:numStars="5"
+                android:rating="3"
+                android:stepSize="0.1"
+                app:trpDrawableProgress="@drawable/ic_flight"
+                app:trpDrawableProgressTint="@color/colorPrimary"
+                app:trpRatingSize="0dp" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="rating default"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.rating.star.TrpRatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="rating default stroke"
+                tools:ignore="HardcodedText" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.chungld.uipack.rating.star.TrpRatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:numStars="7"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:trpRatingSize="20dp" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

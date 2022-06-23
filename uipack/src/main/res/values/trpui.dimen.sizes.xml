@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="trpSizeSmaller">6dp</dimen>
+    <dimen name="trpSizeSmall">10dp</dimen>
+    <dimen name="trpSizeNormal">16dp</dimen>
+    <dimen name="trpSizeMedium">20dp</dimen>
+    <dimen name="trpSizeBig">32dp</dimen>
+    <dimen name="trpSizeBigger">48dp</dimen>
+
+    <dimen name="trpIconPadding">6dp</dimen>
+    <dimen name="trpStrokeWidth">1dp</dimen>
+
+    <dimen name="trp_rating_normal">50dp</dimen>
+    <dimen name="trp_rating_small">24dp</dimen>
+
+</resources>

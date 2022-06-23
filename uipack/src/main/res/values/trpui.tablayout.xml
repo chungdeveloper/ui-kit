@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="TrpTabLayoutStyle" format="reference" />
+
+    <style name="TrpTabLayoutDefaultStyle" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TrpTabTextAppearanceDefault</item>
+        <item name="tabPaddingTop">-1dp</item>
+        <item name="tabPaddingBottom">-1dp</item>
+        <item name="tabPaddingStart">-1dp</item>
+        <item name="tabPaddingEnd">-1dp</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="TrpTabTextAppearanceDefault" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TrpButtonStyle">
+        <attr name="android:textAllCaps" />
+    </declare-styleable>
+
+    <attr name="TrpButtonStyle" format="reference" />
+
+    <style name="TrpBaseButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/trpColorPrimary</item>
+    </style>
+
+</resources>

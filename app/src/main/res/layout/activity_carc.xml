@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CarcActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.chungld.uipack.card.TrpCard
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                app:trpCornerStyle="regular"
+                app:trpElevation="10dp">
+
+                <com.chungld.uipack.text.TrpTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8wergslkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8werg" />
+
+            </com.chungld.uipack.card.TrpCard>
+
+            <com.chungld.uipack.card.TrpCard
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardUseCompatPadding="true"
+                app:trpContentPadding="normal"
+                app:trpCornerStyle="medium"
+                app:trpElevation="selected">
+
+                <com.chungld.uipack.text.TrpTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8wergslkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8werg" />
+            </com.chungld.uipack.card.TrpCard>
+
+            <com.chungld.uipack.card.TrpCard
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardUseCompatPadding="true"
+                app:trpContentPadding="none"
+                app:trpCornerStyle="medium"
+                app:trpElevation="selected">
+
+                <com.chungld.uipack.text.TrpTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8wergslkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8werg" />
+            </com.chungld.uipack.card.TrpCard>
+
+            <com.chungld.uipack.card.TrpCard
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardUseCompatPadding="true"
+                app:trpCornerStyle="rectangle">
+
+                <com.chungld.uipack.text.TrpTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8wergslkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8werg" />
+            </com.chungld.uipack.card.TrpCard>
+
+            <com.chungld.uipack.card.TrpCard
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:cardUseCompatPadding="true"
+                app:trpContentPadding="normal">
+
+                <com.chungld.uipack.text.TrpTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/slkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8wergslkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8werg" />
+            </com.chungld.uipack.card.TrpCard>
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

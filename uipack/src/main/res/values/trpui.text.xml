@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="TrpTextStyle" format="reference" />
+
+    <dimen name="trpTextSizeH1">96sp</dimen>
+    <dimen name="trpTextSizeH2">60sp</dimen>
+    <dimen name="trpTextSizeH3">48sp</dimen>
+    <dimen name="trpTextSizeH4">34sp</dimen>
+    <dimen name="trpTextSizeH5">24sp</dimen>
+    <dimen name="trpTextSizeH6">20sp</dimen>
+    <dimen name="trpTextSizeSub1">16sp</dimen>
+    <dimen name="trpTextSizeSub2">14sp</dimen>
+    <dimen name="trpTextSizeSub3">12sp</dimen>
+    <dimen name="trpTextSizeSub4">11sp</dimen>
+    <dimen name="trpTextSizeBody1">16sp</dimen>
+    <dimen name="trpTextSizeBody2">14sp</dimen>
+    <dimen name="trpTextSizeButton">14sp</dimen>
+    <dimen name="trpTextSizeCaption">12sp</dimen>
+    <dimen name="trpTextSizeOverLine">10sp</dimen>
+    <dimen name="trpTextSizeNotify">8sp</dimen>
+
+    <declare-styleable name="TrpTextViewStyle">
+        <attr name="android:fontFamily" />
+        <attr name="android:textSize" />
+        <attr name="android:textAllCaps" />
+        <attr name="android:letterSpacing" />
+    </declare-styleable>
+
+    <style name="trpTextH1">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeH1</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextH2">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeH2</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextH3">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeH3</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextH4">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeH4</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextH5">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeH5</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextH6">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeH6</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextSub1">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeSub1</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextSub2">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeSub2</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextSub3">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeSub3</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextSub4">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeSub4</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextBody1">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeBody1</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextBody2">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeBody2</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextButton">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeButton</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="trpTextCaption">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeCaption</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextOverLine">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeOverLine</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="trpTextNotify">
+        <item name="android:fontFamily">?attr/trpFontFamilyRegular</item>
+        <item name="android:textSize">@dimen/trpTextSizeNotify</item>
+        <item name="android:textColor">@color/trpColorTextBase</item>
+    </style>
+
+    <style name="trpTextH1.Light" parent="trpTextH1">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextH2.Light" parent="trpTextH2">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextH3.Light" parent="trpTextH3">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextH4.Light" parent="trpTextH4">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextH5.Light" parent="trpTextH5">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextH6.Light" parent="trpTextH6">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextSub1.Light" parent="trpTextSub1">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextSub2.Light" parent="trpTextSub2">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextSub3.Light" parent="trpTextSub3">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextSub4.Light" parent="trpTextSub4">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextBody1.Light" parent="trpTextBody1">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextBody2.Light" parent="trpTextBody2">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextButton.Light" parent="trpTextButton">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextCaption.Light" parent="trpTextCaption">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextOverLine.Light" parent="trpTextOverLine">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+    <style name="trpTextNotify.Light" parent="trpTextNotify">
+        <item name="android:fontFamily">?attr/trpFontFamilyLight</item>
+    </style>
+
+
+    <style name="trpTextH1.Medium" parent="trpTextH1">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextH2.Medium" parent="trpTextH2">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextH3.Medium" parent="trpTextH3">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextH4.Medium" parent="trpTextH4">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+
+    </style>
+
+    <style name="trpTextH5.Medium" parent="trpTextH5">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextH6.Medium" parent="trpTextH6">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextSub1.Medium" parent="trpTextSub1">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextSub2.Medium" parent="trpTextSub2">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextSub3.Medium" parent="trpTextSub3">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextSub4.Medium" parent="trpTextSub4">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextBody1.Medium" parent="trpTextBody1">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextBody2.Medium" parent="trpTextBody2">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextButton.Medium" parent="trpTextButton">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextCaption.Medium" parent="trpTextCaption">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextOverLine.Medium" parent="trpTextOverLine">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+    <style name="trpTextNotify.Medium" parent="trpTextNotify">
+        <item name="android:fontFamily">?attr/trpFontFamilyMedium</item>
+    </style>
+
+</resources>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/trpColorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#bdbdbd"
+            android:orientation="vertical">
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnUIMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Text"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Text"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnRelative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Relative"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnCalendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Calendar"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnBadgeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="BadgeView"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnTabLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="TabLayout"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnNavigationBottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Navigation Bottom"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Button"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnSnack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="SnackBar"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnSwitch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Switch"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnCac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Card"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnCheckbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Checkbox"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnIcon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Icon"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnRatingPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Rating Point"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnRating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Rating"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnChip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Chip Chip"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnIndicator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Indicator"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Spinner"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnFab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="FloatActionButton"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnSeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="SeekBar"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Recycler View"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/btnRecyclerViewSingle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@color/trpColorWhite"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="20dp"
+                android:text="Recycler View Single Type"
+                app:trpTextStyle="body1"
+                app:trpWeight="medium"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

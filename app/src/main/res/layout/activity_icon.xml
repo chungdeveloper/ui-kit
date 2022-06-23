@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".IconActivity">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.chungld.uipack.tab.TrpBadgeView
+                android:id="@+id/badgeView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{@string/uikit_lorem}"
+                app:badgeContent="@{`20`}"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:showBadge="@{true}"
+                app:tabIcon="@{@drawable/ic_flight}"
+                tools:badgeContent="20"
+                tools:showBadge="true"
+                tools:tabIcon="@drawable/ic_flight"
+                tools:text="@string/uikit_lorem" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SmallerIcon"
+                app:trpTextStyle="body1"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.chungld.uipack.icon.TrpIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_trp_uipack_holding_time"
+                    app:trpRatio="h:2:1" />
+
+            </LinearLayout>
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="SmallIcon"
+                app:trpTextStyle="body1"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.chungld.uipack.icon.TrpIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_trp_uipack_holding_time"
+                    app:trpIconSize="small" />
+
+            </LinearLayout>
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="NormalIcon"
+                app:trpTextStyle="body1"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.chungld.uipack.icon.TrpIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_trp_uipack_holding_time"
+                    app:trpIconSize="normal" />
+
+            </LinearLayout>
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="MediumIcon"
+                app:trpTextStyle="body1"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.chungld.uipack.icon.TrpIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_trp_uipack_holding_time"
+                    app:trpIconSize="medium" />
+
+            </LinearLayout>
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="BigIcon"
+                app:trpTextStyle="body1"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.chungld.uipack.icon.TrpIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_trp_uipack_holding_time"
+                    app:trpIconSize="big" />
+
+            </LinearLayout>
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="BiggerIcon"
+                app:trpTextStyle="body1"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.chungld.uipack.icon.TrpIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/steak"
+                    app:trpCornerRadius="8dp"
+                    app:trpIconSize="90dp" />
+
+            </LinearLayout>
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="BiggerIcon with ratio 2:1"
+                app:trpTextStyle="body1"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.chungld.uipack.icon.TrpIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:src="@drawable/ic_trp_uipack_holding_time"
+                    app:trpIconSize="bigger"
+                    app:trpRatio="2:1" />
+
+            </LinearLayout>
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CustomSize(120dp) Icon with ratio 16:10"
+                app:trpTextStyle="body1"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.chungld.uipack.icon.TrpIcon
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/steak"
+                    app:trpCornerRadiusTopLeft="@dimen/trp_uipack_dip_10"
+                    app:trpIconSize="120dp"
+                    app:trpRatio="16:10" />
+
+            </LinearLayout>
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Match_parent Icon with ratio 16:9"
+                app:trpTextStyle="body1"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.chungld.uipack.icon.TrpIcon
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+                    android:src="@drawable/ic_trp_uipack_holding_time"
+                    app:trpRatio="16:9" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

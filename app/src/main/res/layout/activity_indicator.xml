@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".IndicatorActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/vp1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <com.chungld.uipack.indicator.TrpIndicator
+            android:id="@+id/tvIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/vp1"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/trp_uipack_dip_10"
+            app:trp_indicator_drawable="@drawable/ic_flight"
+            app:trp_indicator_drawable_selected="@drawable/trp_ic_star_rating_border"
+            app:trp_indicator_size="16dp"
+            app:trp_indicator_spacing="@dimen/trp_uipack_dip_8" />
+
+    </RelativeLayout>
+
+</layout>

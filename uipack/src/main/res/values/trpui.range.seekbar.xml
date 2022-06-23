@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="rsbColorThumbDefault">#FFFFFF</color>
+    <color name="rsbColorThumbBorder">#FFD7D7D7</color>
+
+    <attr name="TrpSeekBarStyle" format="reference" />
+
+    <style name="TrpSeekBarStyleDefault">
+        <item name="trp_gravity">center</item>
+        <item name="trp_mode">single</item>
+        <item name="trpMax">100</item>
+        <item name="trpMin">0</item>
+    </style>
+
+</resources>

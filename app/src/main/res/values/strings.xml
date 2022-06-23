@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UIKit</string>
+    <string name="uikit_lorem">UIKit lorem</string>
+    <string name="snackbar_default">SnackBar default</string>
+    <string name="trp_html_demo"><![CDATA[<p>You <strong>can</strong> edit this <strong>demo</strong> <em>text</em>!&nbsp;<a href=\"https://google.com\">Google đ&ecirc;</a></p>]]></string>
+    <string name="slkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8wergslkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba_odghpifuhgipurh_fkadjgdfljkgbpsfiuyhgs_98ruh_iaefvdghog7_theshrbfghzvsodfyydihbrtjkshbowetf_8rtyhgawbegfavgihus_oithgalwhjegfoyuqgef8werg">slkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhglskdfjghsldkfjghslkdfjghslkfjgheiouryowiuerthjfhbxljfghaijdfba\'odghpifuhgipurh;fkadjgdfljkgbpsfiuyhgs[98ruh;iaefvdghog7[theshrbfghzvsodfyydihbrtjkshbowetf[8rtyhgawbegfavgihus\'oithgalwhjegfoyuqgef8wergslkfjgshlfdjgslkdfjghskldjfghskfjghslfkjghslkjfghslkjfglkjsfgldkjfglksjdfsjdfhgjksdfhgjklsfhgjklsdfhgljksfhgls</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="single">Single</string>
+    <string name="range">range</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="TrpIndicatorStyle" format="reference" />
+
+    <declare-styleable name="TrpIndicator">
+        <attr name="trp_indicator_size" format="dimension">
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="trp_indicator_height" />
+        <attr name="trp_indicator_width" />
+        <attr name="trp_indicator_drawable" />
+        <attr name="trp_indicator_drawable_selected" format="reference" />
+        <attr name="trp_indicator_spacing" format="dimension" />
+    </declare-styleable>
+</resources>

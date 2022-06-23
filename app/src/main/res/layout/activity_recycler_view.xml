@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/controller"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/controller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/btnRemoveOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remove all type ONE" />
+
+            <Button
+                android:id="@+id/btnIndexFirstOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find first index of type ONE" />
+
+            <Button
+                android:id="@+id/btnReplaceTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Replace all type TWO" />
+
+            <Button
+                android:id="@+id/btnAppendFive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Append type Five" />
+        </com.google.android.material.chip.ChipGroup>
+
+    </RelativeLayout>
+</layout>

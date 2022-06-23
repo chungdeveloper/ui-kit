@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="trpBadgeMargin">6dp</dimen>
+    <dimen name="trpBadgeSize">4dp</dimen>
+
+    <item name="trpTabFrame" type="id" />
+    <item name="trpTabIcon" type="id" />
+    <item name="trpTabContent" type="id" />
+    <item name="trpTabBadge" type="id" />
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <dimen name="bpkSpacingXl">32dp</dimen>-->
+<!--    <dimen name="bpkSpacingBase">16dp</dimen>-->
+<!--    <dimen name="bpkSpacingXxl">40dp</dimen>-->
+<!--    <dimen name="bpkSpacingMd">8dp</dimen>-->
+<!--    <dimen name="bpkSpacingSm">4dp</dimen>-->
+    <dimen name="trp_uipack_dip_6">6dp</dimen>
+    <dimen name="trp_uipack_dip_10">10dp</dimen>
+    <dimen name="trp_uipack_dip_8">8dp</dimen>
+    <dimen name="trp_uipack_dip_1">1dp</dimen>
+    <dimen name="trp_uipack_dip_4">4dp</dimen>
+</resources>

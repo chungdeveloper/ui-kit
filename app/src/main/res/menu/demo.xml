@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itemMenu"
+        android:icon="@drawable/ic_trp_uipack_holding_time"
+        android:title="Menu 1" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_trp_uipack_holding_time"
+        android:title="Máy bay" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_trp_uipack_holding_time"
+        android:title="Đồng hồ" />
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="TrpIconStyle" format="reference" />
+
+    <declare-styleable name="TrpIcon">
+        <attr name="trpIconSize" format="dimension">
+            <enum name="smaller" value="-1" />
+            <enum name="small" value="-2" />
+            <enum name="normal" value="-3" />
+            <enum name="medium" value="-4" />
+            <enum name="big" value="-5" />
+            <enum name="bigger" value="-6" />
+        </attr>
+        <attr name="trpCornerRadius" format="dimension" />
+        <attr name="trpCornerRadiusTopLeft" format="dimension" />
+        <attr name="trpCornerRadiusTopRight" format="dimension" />
+        <attr name="trpCornerRadiusBottomLeft" format="dimension" />
+        <attr name="trpCornerRadiusBottomRight" format="dimension" />
+        <!--    belike 1:1 = width:height    -->
+        <attr name="trpRatio" format="string" />
+    </declare-styleable>
+</resources>

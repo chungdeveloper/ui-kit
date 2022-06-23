@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/trpColorPrimary</item>
+        <item name="colorPrimaryDark">@color/trpColorPrimaryDark</item>
+        <item name="colorAccent">@color/trpColorAccent</item>
+
+        <item name="trpFontFamilyLight">@font/roboto_light</item>
+        <item name="trpFontFamilyRegular">@font/roboto_regular</item>
+        <item name="trpFontFamilyMedium">@font/roboto_bold</item>
+        <item name="TrpChipStyle">@style/ChipCustom</item>
+    </style>
+
+    <style name="ChipCustom">
+        <item name="trpBackgroundColor">@color/trpColorWhite</item>
+        <item name="trpThemeStyle">outlined</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

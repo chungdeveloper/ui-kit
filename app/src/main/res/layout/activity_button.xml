@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/trpColorWhite"
+        tools:context=".ButtonActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <com.chungld.uipack.button.TrpButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:paddingHorizontal="@dimen/trp_uipack_dip_10"
+                android:text="@string/uikit_lorem"
+                app:trpCornerStyle="20dp"
+                app:trpStrokeColor="@{@color/colorPrimary}"
+                app:trpThemeStyle="outlined" />
+
+            <com.chungld.uipack.button.TrpButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bgr_shape"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                app:trpCornerStyle="rectangle"
+                app:trpTextStyle="h1"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.button.TrpButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/app_name"
+                app:trpBackgroundColor="@color/trpColorWhite"
+                app:trpCornerStyle="small"
+                app:trpThemeStyle="outlined"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.button.TrpButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/trpColorPrimary"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                app:trpCornerStyle="regular"
+                app:trpTextStyle="body2"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.button.TrpButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:enabled="false"
+                android:text="@string/app_name"
+                android:textColor="@android:color/white"
+                app:trpCornerStyle="medium"
+                app:trpTextStyle="body2"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.button.TrpButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:enabled="true"
+                android:text="@string/uikit_lorem"
+                android:textColor="@android:color/white"
+                app:trpCornerStyle="round"
+                android:elevation="5dp"
+                app:trpTextStyle="body2"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.button.TrpButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/trp_uipack_dip_10"
+                android:layout_marginTop="10dp"
+                android:text="@string/uikit_lorem"
+                android:textColor="@android:color/white"
+                app:trpCornerStyle="10dp"
+                app:trpTextStyle="caption"
+                tools:ignore="HardcodedText" />
+
+
+            <com.chungld.uipack.button.TrpProgressButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/trp_uipack_dip_10"
+                android:text="@string/uikit_lorem"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                app:trpProgressPadding="@dimen/trp_uipack_dip_10"
+                app:trpStrokeColor="@color/colorRed"
+                app:trpTextStyle="caption"
+                app:trpThemeStyle="outlined" />
+
+            <com.chungld.uipack.button.TrpProgressButton
+                android:id="@+id/btnProcessButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/trp_uipack_dip_10"
+                android:background="@drawable/bgr_gradient"
+                android:text="Hit me!"
+                android:textAllCaps="false"
+                app:trpLoading="@{false}"
+                android:textColor="@android:color/white"
+                app:trpProcessColor="@color/colorRed"
+                app:trpProgressPadding="@dimen/trp_uipack_dip_10"
+                app:trpTextStyle="caption"
+                app:trpThemeStyle="outlined" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

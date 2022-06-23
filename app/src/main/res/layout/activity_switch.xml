@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SwitchActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.chungld.uipack.switchbutton.TrpSwitch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:padding="10dp"
+                android:text="Switch with custom color"
+                app:trpIndicatorActive="@color/trpColorPrimary"
+                app:trpIndicatorDisable="@android:color/holo_red_light"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.switchbutton.TrpSwitch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Switch without custom color"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.switchbutton.TrpSwitch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:enabled="false"
+                android:padding="10dp"
+                android:text="Switch checked with enable false"
+                app:trpIndicatorActive="@android:color/black"
+                app:trpIndicatorDisable="@color/colorPrimary"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.switchbutton.TrpSwitch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:padding="10dp"
+                android:text="Switch unchecked with enable false"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.switchbutton.TrpSwitch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Switch rtl with enable true"
+                app:trpLayoutDirection="rtl"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.switchbutton.TrpSwitch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:padding="10dp"
+                android:text="Switch rtl with enable false"
+                app:trpLayoutDirection="rtl"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

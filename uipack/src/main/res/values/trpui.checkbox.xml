@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TrpCheckboxStyle">
+        <attr name="android:textAllCaps" />
+    </declare-styleable>
+
+    <attr name="TrpCheckboxStyle" format="reference" />
+
+    <style name="TrpCheckboxBaseStyle" parent="Widget.AppCompat.CompoundButton.CheckBox" />
+</resources>

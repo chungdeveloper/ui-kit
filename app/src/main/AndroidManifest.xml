@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chungld.uikit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.chungld.uikit.IndicatorActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.chungld.uikit.TrpRelativeActivity"
+            android:exported="true" />
+        <activity android:name="com.chungld.uikit.BadgeViewActivity" />
+        <activity
+            android:name="com.chungld.uikit.CalendarActivity"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.chungld.uikit.BottomNavigationActivity" />
+        <activity android:name="com.chungld.uikit.TabLayoutActivity" />
+        <activity android:name="com.chungld.uikit.RatingPointActivity" />
+        <activity android:name="com.chungld.uikit.SeekBarActivity" />
+        <activity android:name="com.chungld.uikit.FloatActivity" />
+        <activity android:name="com.chungld.uikit.SpinnerActivity" />
+        <activity android:name="com.chungld.uikit.ChipActivity" />
+        <activity android:name="com.chungld.uikit.RatingActivity" />
+        <activity android:name="com.chungld.uikit.IconActivity" />
+        <activity android:name="com.chungld.uikit.CheckBoxActivity" />
+        <activity android:name="com.chungld.uikit.CarcActivity" />
+        <activity android:name="com.chungld.uikit.SwitchActivity" />
+        <activity android:name="com.chungld.uikit.ButtonActivity" />
+        <activity android:name="com.chungld.uikit.SnackBarActivity" />
+        <activity android:name="com.chungld.uikit.TextActivity" />
+        <activity android:name="com.chungld.uikit.rvadapter.multi.JavaRvMultiTypeActivity" />
+        <activity android:name="com.chungld.uikit.rvadapter.single.RvSingleTypeActivity" />
+        <activity android:name="com.chungld.uikit.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

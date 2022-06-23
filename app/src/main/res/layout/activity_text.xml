@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.chungld.uipack.common.TrpText" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/trpColorWhite">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!--            <chungldld.uipack.text.TrpTextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:drawableStart="@drawable/ic_flight"-->
+            <!--                android:drawableLeft="@drawable/ic_flight"-->
+            <!--                app:trpColorLink="@color/trpColorAccent"-->
+            <!--                app:trpHtmlText="@{@string/trp_html_demo}"-->
+            <!--                app:trpHtmlUnderLine="@{false}"-->
+            <!--                app:trpIconSize="big"-->
+            <!--                app:trpLayoutDirection="rtl"-->
+            <!--                app:trpTextStyle="sub2"-->
+            <!--                tools:trpHtmlText="@string/trp_html_demo"-->
+            <!--                tools:trpHtmlUnderLine="false" />-->
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_trp_uipack_holding_time"
+                android:drawableLeft="@drawable/ic_trp_uipack_holding_time"
+                android:text="h1"
+                android:textColor="@{@color/colorPrimary}"
+                app:trpLayoutDirection="rtl"
+                app:trpTextStyle="@{TrpText.H1}"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="h2"
+                app:trpLayoutDirection="ltr"
+                app:trpStrikeThrough="true"
+                app:trpTextStyle="h2"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="h3"
+                app:trpStrikeThrough="@{true}"
+                app:trpTextStyle="h3"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:trpStrikeThrough="@{false}"
+                android:text="h4"
+                app:trpTextStyle="h4"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="h5"
+                app:trpIconSize="normal"
+                app:trpTextStyle="h5"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="h6"
+                app:trpTextStyle="sub3"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub 1"
+                app:trpTextStyle="sub1"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sub 2"
+                app:trpTextStyle="sub2"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Body 1"
+                app:trpTextStyle="body1"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Body 2"
+                app:trpTextStyle="body2"
+                app:trpWeight="regular"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                app:trpTextStyle="button"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Caption"
+                app:trpTextStyle="caption"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OverLine"
+                app:trpTextStyle="overline"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notify"
+                app:trpTextStyle="notify"
+                tools:ignore="HardcodedText" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:id="@+id/tvCustomHtml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:trpColorLink="@color/colorPrimary"
+                app:trpHtmlText="@string/trp_html_demo"
+                app:trpTextStyle="sub1" />
+
+            <com.chungld.uipack.text.TrpTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:trpHtmlText="@string/trp_html_demo"
+                app:trpHtmlUnderLine="false"
+                app:trpWeight="regular" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

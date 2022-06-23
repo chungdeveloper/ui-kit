@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="trpFontFamilyLight" format="reference|string" />
+    <attr name="trpFontFamilyRegular" format="reference|string" />
+    <attr name="trpFontFamilyMedium" format="reference|string" />
+
+    <attr name="trpTextH1DefaultAppearance" format="reference" />
+    <attr name="trpTextH2DefaultAppearance" format="reference" />
+    <attr name="trpTextH3DefaultAppearance" format="reference" />
+    <attr name="trpTextH4DefaultAppearance" format="reference" />
+    <attr name="trpTextH5DefaultAppearance" format="reference" />
+    <attr name="trpTextH6DefaultAppearance" format="reference" />
+    <attr name="trpTextSUB1DefaultAppearance" format="reference" />
+    <attr name="trpTextSUB2DefaultAppearance" format="reference" />
+    <attr name="trpTextSUB3DefaultAppearance" format="reference" />
+    <attr name="trpTextSUB4DefaultAppearance" format="reference" />
+    <attr name="trpTextBODY1DefaultAppearance" format="reference" />
+    <attr name="trpTextBODY2DefaultAppearance" format="reference" />
+    <attr name="trpTextBUTTONDefaultAppearance" format="reference" />
+    <attr name="trpTextCAPTIONDefaultAppearance" format="reference" />
+    <attr name="trpTextOVERLINEDefaultAppearance" format="reference" />
+    <attr name="trpTextNotifyDefaultAppearance" format="reference" />
+
+    <attr name="trpTextH1LightAppearance" format="reference" />
+    <attr name="trpTextH2LightAppearance" format="reference" />
+    <attr name="trpTextH3LightAppearance" format="reference" />
+    <attr name="trpTextH4LightAppearance" format="reference" />
+    <attr name="trpTextH5LightAppearance" format="reference" />
+    <attr name="trpTextH6LightAppearance" format="reference" />
+    <attr name="trpTextSUB1LightAppearance" format="reference" />
+    <attr name="trpTextSUB2LightAppearance" format="reference" />
+    <attr name="trpTextSUB3LightAppearance" format="reference" />
+    <attr name="trpTextSUB4LightAppearance" format="reference" />
+    <attr name="trpTextBODY1LightAppearance" format="reference" />
+    <attr name="trpTextBODY2LightAppearance" format="reference" />
+    <attr name="trpTextBUTTONLightAppearance" format="reference" />
+    <attr name="trpTextCAPTIONLightAppearance" format="reference" />
+    <attr name="trpTextOVERLINELightAppearance" format="reference" />
+    <attr name="trpTextNotifyLightAppearance" format="reference" />
+
+    <attr name="trpTextH1RegularAppearance" format="reference" />
+    <attr name="trpTextH2RegularAppearance" format="reference" />
+    <attr name="trpTextH3RegularAppearance" format="reference" />
+    <attr name="trpTextH4RegularAppearance" format="reference" />
+    <attr name="trpTextH5RegularAppearance" format="reference" />
+    <attr name="trpTextH6RegularAppearance" format="reference" />
+    <attr name="trpTextSUB1RegularAppearance" format="reference" />
+    <attr name="trpTextSUB2RegularAppearance" format="reference" />
+    <attr name="trpTextSUB3RegularAppearance" format="reference" />
+    <attr name="trpTextSUB4RegularAppearance" format="reference" />
+    <attr name="trpTextBODY1RegularAppearance" format="reference" />
+    <attr name="trpTextBODY2RegularAppearance" format="reference" />
+    <attr name="trpTextBUTTONRegularAppearance" format="reference" />
+    <attr name="trpTextCAPTIONRegularAppearance" format="reference" />
+    <attr name="trpTextOVERLINERegularAppearance" format="reference" />
+    <attr name="trpTextNotifyRegularAppearance" format="reference" />
+
+    <attr name="trpTextH1MediumAppearance" format="reference" />
+    <attr name="trpTextH2MediumAppearance" format="reference" />
+    <attr name="trpTextH3MediumAppearance" format="reference" />
+    <attr name="trpTextH4MediumAppearance" format="reference" />
+    <attr name="trpTextH5MediumAppearance" format="reference" />
+    <attr name="trpTextH6MediumAppearance" format="reference" />
+    <attr name="trpTextSUB1MediumAppearance" format="reference" />
+    <attr name="trpTextSUB2MediumAppearance" format="reference" />
+    <attr name="trpTextSUB3MediumAppearance" format="reference" />
+    <attr name="trpTextSUB4MediumAppearance" format="reference" />
+    <attr name="trpTextBODY1MediumAppearance" format="reference" />
+    <attr name="trpTextBODY2MediumAppearance" format="reference" />
+    <attr name="trpTextBUTTONMediumAppearance" format="reference" />
+    <attr name="trpTextCAPTIONMediumAppearance" format="reference" />
+    <attr name="trpTextOVERLINEMediumAppearance" format="reference" />
+    <attr name="trpTextNotifyMediumAppearance" format="reference" />
+
+</resources>

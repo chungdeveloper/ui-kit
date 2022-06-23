@@ -1,0 +1,196 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'org.jetbrains.dokka'
+apply plugin: 'maven-publish'
+
+android {
+    compileSdkVersion 30
+
+    def versionPropsFile = file('version.properties')
+    def numberBuild
+    def versionBuild
+    def versionNameValue
+
+    Properties versionProps
+    if (versionPropsFile.canRead()) {
+        versionProps = new Properties()
+        versionProps.load(new FileInputStream(versionPropsFile))
+        numberBuild = versionProps['NUMBER_BUILD'].toInteger()
+        versionBuild = versionProps['VERSION_BUILD'].toInteger()
+        versionNameValue = versionBuild.toString().replace("", ".")
+        versionNameValue = (versionBuild < 100 ? 0 : "").toString() + versionNameValue.substring(1, versionNameValue.length() - 1)
+    } else {
+        throw new FileNotFoundException("Could not read version.properties!")
+    }
+
+    ext.autoIncrementBuildNumber = {
+
+        if (versionPropsFile.canRead()) {
+            numberBuild = versionProps['NUMBER_BUILD'].toInteger() + 1
+            versionProps['NUMBER_BUILD'] = numberBuild.toString()
+            versionProps.store(versionPropsFile.newWriter(), null)
+        } else {
+            throw new FileNotFoundException("Could not read version.properties!")
+        }
+    }
+    ext.autoIncrementVersionNumber = {
+        if (versionPropsFile.canRead()) {
+            versionBuild = versionProps['VERSION_BUILD'].toInteger() + 1
+            versionProps['VERSION_BUILD'] = versionBuild.toString()
+            versionNameValue = versionBuild.toString().replace("", ".")
+            versionNameValue = versionNameValue.substring(1, versionNameValue.length() - 1)
+            versionProps.store(versionPropsFile.newWriter(), null)
+        } else {
+            throw new FileNotFoundException("Could not read version.properties!")
+        }
+    }
+
+    gradle.taskGraph.whenReady { taskGraph ->
+        if (taskGraph.hasTask(assemble)) {
+            autoIncrementBuildNumber()
+            autoIncrementVersionNumber()
+        }
+    }
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 30
+        versionCode versionBuild
+        versionName versionNameValue
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dokka {
+        configuration {
+            androidVariants = ["debug", "release"]
+        }
+    }
+
+    libraryVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "${archivesBaseName}-${variant.name}-${defaultConfig.versionName}.aar"
+        }
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+}
+
+dokka {
+    outputFormat = 'html'
+    outputDirectory = "$rootProject.buildDir/UIKitDocuments"
+    configuration {
+        moduleName = 'UIKit'
+        includeNonPublic = false
+        skipDeprecated = false
+        skipEmptyPackages = true
+//        sourceRoot {
+//            path = "uipack/src/main/java/com/chungld/uipack"
+//        }
+//        perPackageOption {
+//            prefix = "com.chungld.uipack" // will match kotlin and all sub-packages of it
+//            reportUndocumented = false
+//            suppress = true
+//        }
+    }
+}
+
+publishing {
+    publications {
+        android.libraryVariants.all { variant ->
+            //use this kind of combination if you want to skip a publication
+            if (variant.buildType.name == "debug") return
+            //if (variant.flavorName != "production" && variant.buildType.name == "release") return
+            def filename = "${archivesBaseName}-${variant.baseName}-${android.defaultConfig.versionName}"
+            //println(filename)
+            "${variant.name}"(MavenPublication) {
+                //println(variant.name)
+                groupId 'com.chungld.common'
+                artifactId = "ui-kit"
+                if (project.hasProperty('paramEnv') && project.property('paramEnv') != 'RELEASE' || variant.name != "release") {
+                    groupId "com.chungld.common.${variant.name}"
+                }
+                version = "${android.defaultConfig.versionName}"
+                artifact file("$buildDir/outputs/aar/${filename}.aar")
+                pom.withXml {
+                    // for dependencies and exclusions
+                    def dependenciesNode = asNode().appendNode('dependencies')
+                    def configurationNames = ["implementation", "api", "runtimeOnly"]
+                    configurationNames.each { confName ->
+                        configurations[confName].allDependencies.each {
+                            def dependencyNode = dependenciesNode.appendNode('dependency')
+                            dependencyNode.appendNode('groupId', it.group)
+                            dependencyNode.appendNode('artifactId', it.name)
+                            dependencyNode.appendNode('version', it.version)
+                            if (it.excludeRules.size() > 0) {
+                                def exclusionsNode = dependencyNode.appendNode('exclusions')
+                                it.excludeRules.each { rule ->
+                                    def exclusionNode = exclusionsNode.appendNode('exclusion')
+                                    exclusionNode.appendNode('groupId', rule.group)
+                                    exclusionNode.appendNode('artifactId', rule.module)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+assemble.finalizedBy(artifactoryPublish)
+artifactory {
+    contextUrl = "${artifactory_context_url}"
+    publish {
+        repository {
+            repoKey = "${artifactory_dev_repo_key}"
+            if (project.hasProperty('paramEnv') && project.property('paramEnv') == 'RELEASE') {
+                repoKey = "${artifactory_rel_repo_key}"
+            }
+            username = "Developer"
+            password = "Chung2512"
+            maven = true
+        }
+        defaults {
+            if (project.hasProperty('paramEnv') && project.property('paramEnv') == 'RELEASE') {
+                publications('release')
+            } else {
+                publications('debug', 'release')
+            }
+            publishArtifacts = true
+            publishPom = true
+        }
+    }
+    resolve {
+        repository {
+            repoKey = "${artifactory_rel_repo_key}"
+            username = "Developer"
+            password = "Chung2512"
+            maven = true
+        }
+    }
+}
+

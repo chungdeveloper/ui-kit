@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="five"
+            type="com.chungld.uikit.rvadapter.model.Five" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:background="#4CAF50">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@{five.fiveStr + ` -> ` + five.fiveInt}"
+            android:textColor="@color/trpColorWhite" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

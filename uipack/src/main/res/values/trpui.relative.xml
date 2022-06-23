@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="TrpRelativeLayout" format="reference" />
+
+    <declare-styleable name="TrpRelativeLayout">
+        <attr name="trpCornerRadius" />
+        <attr name="trpCornerRadiusTopLeft" />
+        <attr name="trpCornerRadiusTopRight" />
+        <attr name="trpCornerRadiusBottomLeft" />
+        <attr name="trpCornerRadiusBottomRight" />
+        <!--    belike 1:1 = width:height    -->
+        <attr name="trpRatio" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.chungld.uikit.ChipActivityViewModel" />
+    </data>
+
+    <ScrollView xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ChipActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical">
+
+            <!--            <HorizontalScrollView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content">-->
+
+            <com.chungld.uipack.chip.group.TrpChipGroup
+                android:id="@+id/chip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                app:chipSpacing="@dimen/trp_uipack_dip_8"
+                app:singleSelection="true">
+
+
+                <com.chungld.uipack.chip.TrpChip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ashjdfgaasdfajksd"
+                    app:trpSelectable="true" />
+
+                <com.chungld.uipack.chip.TrpChip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ashjdfgaasdfajksd"
+                    app:trpSelectable="true" />
+
+                <com.chungld.uipack.chip.TrpChip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ashjdfgaasdfajksd"
+                    app:trpSelectable="true" />
+
+                <com.chungld.uipack.chip.TrpChip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ashjdfgaasdfajksd"
+                    app:trpSelectable="true" />
+
+                <com.chungld.uipack.chip.TrpChip
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ashjdfgaasdfajksd"
+                    app:trpSelectable="true" />
+
+                <!--                    <chungldld.uipack.chip.TrpChip-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:text="ashjdfg\najksd"-->
+                <!--                        app:trpSelectable="true" />-->
+
+                <!--                    <chungldld.uipack.chip.TrpChip-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:text="ashjdfgajksd"-->
+                <!--                        app:trpSelectable="true" />-->
+
+                <!--                    <chungldld.uipack.chip.TrpChip-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:text="ashjdfgaasdfasdfjksd"-->
+                <!--                        app:trpSelectable="true" />-->
+
+                <!--                    <chungldld.uipack.chip.TrpChip-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:text="ashjdfgajksd"-->
+                <!--                        app:trpSelectable="true" />-->
+
+                <!--                </chungldld.uipack.chip.group.TrpChipGroup>-->
+                <!--            </HorizontalScrollView>-->
+
+                <!--            <chungldld.uipack.chip.group.TrpChipGroup-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="match_parent"-->
+                <!--                android:layout_marginTop="@dimen/trp_uipack_dip_10">-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:id="@+id/chip1"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:singleLine="false"-->
+                <!--                    android:text="@string/uikit_lorem"-->
+                <!--                    android:textColor="@color/selectable_chip_color"-->
+                <!--                    app:trpBackgroundColor="@color/trpColorAccent"-->
+                <!--                    app:trpBackgroundSelectedColor="@color/trpColorPrimary"-->
+                <!--                    app:trpChipIcon="@drawable/ic_trp_uipack_holding_time"-->
+                <!--                    app:trpIconSize="16dp"-->
+                <!--                    app:trpSelectable="true"-->
+                <!--                    app:trpSelected="@={viewModel.selected}"-->
+                <!--                    app:trpThemeStyle="filled" />-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:id="@+id/chip2"-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="jsdgfkjashdgfa"-->
+                <!--                    app:trpCornerStyle="small"-->
+                <!--                    app:trpSelectable="true" />-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="sdfsdfasdfsdf"-->
+                <!--                    app:trpChipIcon="@drawable/ic_trp_uipack_holding_time"-->
+                <!--                    app:trpLayoutDirection="rtl" />-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:id="@+id/tvChip1"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="jsdgfkjashdgfaksjdhfakjshdfgakshjdfgashjkdfg"-->
+                <!--                    app:trpStrokeColor="@color/trpColorAccent" />-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:id="@+id/tvChip2"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="jsdgfkjashdgfaksjdhfakjshdfgakshjdfgashjkdfg" />-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="@string/uikit_lorem"-->
+                <!--                    android:textColor="@color/selectable_chip_color"-->
+                <!--                    app:trpBackgroundColor="@color/trpColorAccent"-->
+                <!--                    app:trpBackgroundSelectedColor="@color/trpColorPrimary"-->
+                <!--                    app:trpElevation="24dp"-->
+                <!--                    app:trpSelectable="true"-->
+                <!--                    app:trpSelected="true"-->
+                <!--                    app:trpThemeStyle="filled" />-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:enabled="false"-->
+                <!--                    android:text="@string/uikit_lorem"-->
+                <!--                    app:trpSelectable="true"-->
+                <!--                    app:trpThemeStyle="filled" />-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:id="@+id/chip0"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="@string/uikit_lorem"-->
+                <!--                    app:trpBackgroundColor="@color/trpColorAccent"-->
+                <!--                    app:trpSelectable="true"-->
+                <!--                    app:trpStrokeColor="@color/trpColorPrimary"-->
+                <!--                    app:trpThemeStyle="outlined" />-->
+
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="@string/uikit_lorem"-->
+                <!--                    app:trpThemeStyle="filled" />-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="@string/uikit_lorem"-->
+                <!--                    app:trpChipIcon="@drawable/ic_trp_uipack_holding_time"-->
+                <!--                    app:trpLayoutDirection="rtl"-->
+                <!--                    app:trpSelectable="@{true}"-->
+                <!--                    app:trpSelected="@{true}"-->
+                <!--                    app:trpThemeStyle="filled" />-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="@string/uikit_lorem"-->
+                <!--                    app:trpChipIcon="@drawable/ic_flight"-->
+                <!--                    app:trpThemeStyle="filled" />-->
+
+                <!--                <chungldld.uipack.chip.TrpChip-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="@string/uikit_lorem"-->
+                <!--                    app:trpChipIcon="@drawable/ic_trp_uipack_holding_time"-->
+                <!--                    app:trpThemeStyle="filled" />-->
+            </com.chungld.uipack.chip.group.TrpChipGroup>
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

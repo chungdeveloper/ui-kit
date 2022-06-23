@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <variable
+            name="four"
+            type="com.chungld.uikit.rvadapter.model.Four" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="8dp"
+        android:background="#9C27B0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@{four.fourStr + ` -> ` + four.fourInt}"
+            android:textColor="@color/trpColorWhite" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

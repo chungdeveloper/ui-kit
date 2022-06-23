@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".CalendarActivity">
+
+        <com.chungld.uipack.button.TrpButton
+            android:id="@+id/btnReset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            tools:ignore="HardcodedText" />
+
+        <com.chungld.uipack.calendar.CalendarVerticalView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            app:calendar_padding="10dp"
+            app:current_day_text_color="#00ACA0"
+            app:current_month_lunar_text_color="#CFCFCF"
+            app:current_month_text_color="#4f4f4f"
+            app:day_text_size="14sp"
+            app:month_view="com.chungld.uikit.template.HuntTicketRangeMonthView"
+            app:month_view_show_mode="mode_only_current"
+            app:other_month_text_color="#BDBDBD"
+            app:select_mode="range_mode"
+            app:selected_range_theme_color="#CFFFE5"
+            app:min_select_range="0"
+            app:selected_text_color="#ffffff"
+            app:selected_theme_color="#00AD50"
+            app:week_background="#ffffff"
+            app:week_line_background="#BDBDBD"
+            app:week_text_color="#212121" />
+
+        <!--        <chungldld.uipack.calendar.CalendarVerticalView-->
+        <!--            android:id="@+id/calendarView"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:background="#FFFFFF"-->
+        <!--            app:calendar_padding="10dp"-->
+        <!--            app:current_day_text_color="#00ACA0"-->
+        <!--            app:current_month_lunar_text_color="#CFCFCF"-->
+        <!--            app:current_month_text_color="#4f4f4f"-->
+        <!--            app:day_text_size="14sp"-->
+        <!--            app:month_view="com.chungldld.uipack.calendar.template.HuntTicketRangeMonthView"-->
+        <!--            app:month_view_show_mode="mode_only_current"-->
+        <!--            app:other_month_text_color="#BDBDBD"-->
+        <!--            app:select_mode="range_mode"-->
+        <!--            app:selected_range_theme_color="#CFFFE5"-->
+        <!--            app:selected_text_color="#fff"-->
+        <!--            app:selected_theme_color="#00AD50"-->
+        <!--            app:week_background="#ffffff"-->
+        <!--            app:week_line_background="#BDBDBD"-->
+        <!--            app:week_text_color="#212121" />-->
+    </LinearLayout>
+</layout>

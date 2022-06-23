@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="trp_progressbar_indicator" type="id" />
+    <item name="trp_progressbar_text" type="id" />
+
+    <attr name="TrpSpinnerStyle" format="reference" />
+
+    <style name="trpSpinnerStyleDef">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>

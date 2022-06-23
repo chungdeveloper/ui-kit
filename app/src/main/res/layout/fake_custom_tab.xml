@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/trpTabFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="visible">
+
+        <com.chungld.uipack.icon.TrpIcon
+            android:id="@+id/trpTabIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_trp_uipack_holding_time"
+            android:visibility="visible" />
+
+        <com.chungld.uipack.rating.indicator.TrpRatingPoint
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@android:color/holo_red_light"
+            android:text="20"
+            android:textColor="#ffffff"
+            app:trpCornerStyle="round"
+            app:trpTextStyle="notify"
+            tools:ignore="HardcodedText" />
+
+    </FrameLayout>
+
+    <com.chungld.uipack.text.TrpTextView
+        android:id="@+id/trpTabContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uikit_lorem"
+        android:visibility="gone" />
+
+    <!--    <chungldld.uipack.rating.indicator.TrpRatingPoint-->
+    <!--        android:layout_width="5dp"-->
+    <!--        android:layout_height="5dp"-->
+    <!--        android:layout_gravity="end|center"-->
+    <!--        android:background="@android:color/holo_red_light"-->
+    <!--        android:text="20"-->
+    <!--        android:textColor="#ffffff"-->
+    <!--        app:trpCornerStyle="round"-->
+    <!--        app:trpTextStyle="notify"-->
+    <!--        tools:ignore="HardcodedText" />-->
+</LinearLayout>

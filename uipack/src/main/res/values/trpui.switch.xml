@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TrpSwitchStyle">
+        <attr name="android:textAllCaps" />
+    </declare-styleable>
+    <attr name="TrpSwitchStyle" format="reference" />
+
+    <style name="TrpSwitchBaseStyle" parent="Widget.AppCompat.CompoundButton.Switch" />
+</resources>

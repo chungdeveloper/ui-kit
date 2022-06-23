@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="trpTextBaseColor" format="color" />
+<!--    <attr name="trpColorPrimary" format="color" />-->
+<!--    <attr name="trpColorPrimaryDark" format="color" />-->
+<!--    <attr name="trpColorAccent" format="color" />-->
+<!--    <attr name="trpColorDisable" format="color" />-->
+
+<!--    <color name="trp_text_base">#212121</color>-->
+<!--    <color name="trpColorPrimary">#6200EE</color>-->
+<!--    <color name="trpColorPrimaryDark">#3700B3</color>-->
+<!--    <color name="trpColorAccent">#03DAC5</color>-->
+<!--    <color name="trpColorDisable">#9E9E9E</color>-->
+</resources>

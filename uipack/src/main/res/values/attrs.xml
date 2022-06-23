@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TrpTextView">
+        <attr name="trpTextStyle" format="enum">
+            <enum name="h1" value="0" />
+            <enum name="h2" value="1" />
+            <enum name="h3" value="2" />
+            <enum name="h4" value="3" />
+            <enum name="h5" value="4" />
+            <enum name="h6" value="5" />
+            <enum name="sub1" value="6" />
+            <enum name="sub2" value="7" />
+            <enum name="body1" value="8" />
+            <enum name="body2" value="9" />
+            <enum name="button" value="10" />
+            <enum name="caption" value="11" />
+            <enum name="overline" value="12" />
+            <enum name="notify" value="13" />
+            <enum name="sub3" value="14" />
+            <enum name="sub4" value="15" />
+        </attr>
+
+        <attr name="trpWeight" format="enum">
+            <enum name="light" value="1" />
+            <enum name="regular" value="2" />
+            <enum name="medium" value="3" />
+        </attr>
+
+        <attr name="android:textColor" format="reference|color" />
+        <attr name="android:textColorHint" format="reference|color" />
+        <attr name="trpColorLink" format="reference|color" />
+        <attr name="trpLayoutDirection" format="enum">
+            <enum name="ltr" value="0" />
+            <enum name="rtl" value="1" />
+            <enum name="inherit" value="2" />
+            <enum name="locale" value="3" />
+        </attr>
+        <attr name="trpHtmlText" format="string" />
+        <attr name="trpHtmlUnderLine" format="boolean" />
+        <attr name="android:textAllCaps" format="boolean" />
+        <attr name="trpIconSize" />
+        <attr name="trpStrikeThrough" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TrpButton">
+        <attr name="trpLayoutDirection" />
+        <attr name="trpTextStyle" />
+        <attr name="trpWeight" />
+        <attr name="android:textColor" />
+        <attr name="android:textAllCaps" />
+        <attr name="trpCornerStyle" format="dimension">
+            <enum name="rectangle" value="0" />
+            <enum name="round" value="-1" />
+            <enum name="small" value="-2" />
+            <enum name="regular" value="-3" />
+            <enum name="medium" value="-4" />
+        </attr>
+        <attr name="trpThemeStyle" format="enum">
+            <enum name="filled" value="0" />
+            <enum name="outlined" value="1" />
+        </attr>
+        <attr name="trpStrokeColor" format="reference|color" />
+        <attr name="android:textSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TrpProgressButton">
+        <attr name="trpLayoutDirection" />
+        <attr name="trpTextStyle" />
+        <attr name="trpWeight" />
+        <attr name="android:textColor" />
+        <attr name="android:textAllCaps" />
+        <attr name="trpCornerStyle" />
+        <attr name="trpThemeStyle" />
+        <attr name="trpStrokeColor" />
+        <attr name="android:textSize" />
+        <attr name="android:text" />
+        <attr name="trpTextPosition" />
+        <attr name="trpLoading" format="boolean" />
+        <attr name="trpProcessColor" format="color|reference" />
+        <attr name="trpProgressPadding" format="dimension|reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TrpSwitch">
+        <attr name="trpTextStyle" />
+        <attr name="trpWeight" />
+        <attr name="android:textColor" />
+        <attr name="android:textAllCaps" />
+        <attr name="trpSwitchStyle" format="enum">
+            <enum name="base" value="0" />
+        </attr>
+        <attr name="trpLayoutDirection" />
+        <attr name="trpIndicatorActive" format="reference|color" />
+        <attr name="trpIndicatorDisable" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="TrpCard">
+        <attr name="trpElevation" format="dimension">
+            <enum name="none" value="0" />
+            <enum name="normal" value="-1" />
+            <enum name="selected" value="-2" />
+        </attr>
+        <attr name="trpCornerStyle" />
+        <attr name="trpContentPadding" format="dimension">
+            <enum name="none" value="0" />
+            <enum name="normal" value="-1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TrpCheckbox">
+        <attr name="trpLayoutDirection" />
+        <attr name="trpTextStyle" />
+        <attr name="trpWeight" />
+        <attr name="android:textColor" />
+        <attr name="android:textAllCaps" />
+        <attr name="trpCheckTint" format="reference|color" />
+        <attr name="trpEnableColor" format="reference|color" />
+        <attr name="trpDisableColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="TrpTabLayout">
+
+    </declare-styleable>
+
+    <declare-styleable name="TrpRatingBar">
+        <attr name="trpDrawableProgress" format="reference" />
+        <attr name="trpDrawableBackground" format="reference" />
+        <attr name="trpDrawableSecondary" format="reference" />
+        <attr name="trpDrawableProgressTint" format="color" />
+        <attr name="trpDrawableBackgroundTint" format="color" />
+        <attr name="trpDrawableSecondaryTint" format="color" />
+        <attr name="android:rating" format="float" />
+        <attr name="trpRatingSize" format="dimension">
+            <enum name="small" value="-1" />
+            <enum name="normal" value="-2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TrpChip">
+        <attr name="trpThemeStyle" />
+        <attr name="trpBackgroundColor" format="color" />
+        <attr name="trpBackgroundSelectedColor" format="color" />
+        <attr name="trpChipIcon" format="reference" />
+        <attr name="trpSelectable" format="boolean" />
+        <attr name="trpSelected" format="boolean" />
+        <attr name="trpStrokeColor" />
+        <attr name="android:gravity" />
+        <attr name="trpCornerStyle" />
+        <attr name="android:textColor" />
+        <attr name="android:singleLine" format="boolean" />
+        <attr name="trpElevation" />
+        <attr name="trpIconPadding" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TrpSnackBarStyle">
+        <attr name="trpBackgroundColor" />
+        <attr name="trpActionColor" format="reference|color" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <declare-styleable name="TrpSpinner">
+        <attr name="trpTextPosition" format="enum">
+            <enum name="top" value="0" />
+            <enum name="left" value="1" />
+            <enum name="bottom" value="2" />
+            <enum name="right" value="3" />
+        </attr>
+        <attr name="trpProgressStyle" format="enum">
+            <enum name="full" value="0" />
+            <enum name="load_more" value="1" />
+        </attr>
+        <attr name="trpTextStyle" />
+        <attr name="trpWeight" />
+        <attr name="android:textColor" />
+        <attr name="trpColorLink" />
+        <attr name="trpLayoutDirection" />
+        <attr name="trpHtmlText" />
+        <attr name="trpHtmlUnderLine" />
+        <attr name="android:textAllCaps" />
+        <attr name="trpIconSize" />
+        <attr name="android:text" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="TrpRatingPoint">
+        <attr name="trpStrokeColor" />
+        <attr name="trpCornerStyle" />
+        <attr name="android:padding" />
+        <attr name="trpIsRound" format="boolean" />
+        <attr name="android:background" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TrpSeekBar">
+        <!--The maximum-->
+        <attr name="trpMax" format="float" />
+
+        <!--The minimum-->
+        <attr name="trpMin" format="float" />
+
+        <!--RangeSeekBar mode, single is normal seekBar, range is RangeSeekBar-->
+        <attr name="trp_mode" format="enum">
+            <enum name="single" value="1" />
+            <enum name="range" value="2" />
+        </attr>
+
+        <!--RangeSeekBar gravity-->
+        <attr name="trp_gravity" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+
+        <!--The min interval of the thumbs -->
+        <attr name="trp_min_interval" format="float" />
+
+        <!-- 0 for the normal mode, greater than 1 to switch to scale mode-->
+        <attr name="trp_tick_mark_number" format="integer" />
+
+        <!--Scale mode
+        Number according to the scale of the actual proportion of the distribution of the location (markTextArray must be a number)
+        Other bisects the current layout (markTextArray can be any character)
+        -->
+        <attr name="trp_tick_mark_mode" format="enum">
+            <enum name="number" value="0" />
+            <enum name="other" value="1" />
+        </attr>
+
+        <!--The tick mark text gravity -->
+        <attr name="trp_tick_mark_gravity" format="enum">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+
+        <!--The tick mark text layout gravity -->
+        <attr name="trp_tick_mark_layout_gravity" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+        </attr>
+
+        <!--The tick mark text array -->
+        <attr name="trp_tick_mark_text_array" format="reference" />
+
+        <!--The tick mark text margin bottom to progress -->
+        <attr name="trp_tick_mark_text_margin" format="dimension" />
+
+        <attr name="trp_tick_mark_text_size" format="dimension" />
+
+        <attr name="trp_tick_mark_text_color" format="color" />
+
+        <!--it just work in range && number mode now-->
+        <attr name="trp_tick_mark_in_range_text_color" format="color" />
+
+        <attr name="trp_progress_height" format="dimension" />
+
+        <attr name="trp_progress_radius" format="dimension" />
+
+        <!--the color of progress bar when in progress-->
+        <attr name="trp_progress_color" format="color" />
+        <!--the default color of the progress bar-->
+        <attr name="trp_progress_default_color" format="color" />
+
+        <attr name="trp_progress_drawable" format="reference" />
+
+        <attr name="trp_progress_drawable_default" format="reference" />
+
+        <!--SeekBar attrs-->
+        <attr name="trp_indicator_show_mode" format="enum">
+            <enum name="showWhenTouch" value="0" />
+            <enum name="alwaysHide" value="1" />
+            <enum name="alwaysShowAfterTouch" value="2" />
+            <enum name="alwaysShow" value="3" />
+        </attr>
+        <attr name="trp_indicator_height" format="dimension">
+            <enum name="wrap_content" value="-1" />
+        </attr>
+        <attr name="trp_indicator_width" format="dimension">
+            <enum name="wrap_content" value="-1" />
+        </attr>
+        <!--indicator margin bottom to progress bar-->
+        <attr name="trp_indicator_margin" format="dimension" />
+        <attr name="trp_indicator_text_size" format="dimension" />
+        <attr name="trp_indicator_text_color" format="color" />
+        <!--indicator arrow size, it just work when you not use trp_indicator_drawable -->
+        <attr name="trp_indicator_arrow_size" format="dimension" />
+        <!-- must use 9 path ！！！-->
+        <attr name="trp_indicator_drawable" format="reference" />
+        <attr name="trp_indicator_background_color" format="color" />
+        <attr name="trp_indicator_padding_left" format="dimension" />
+        <attr name="trp_indicator_padding_right" format="dimension" />
+        <attr name="trp_indicator_padding_top" format="dimension" />
+        <attr name="trp_indicator_padding_bottom" format="dimension" />
+        <attr name="trp_indicator_radius" format="dimension" />
+        <attr name="trp_thumb_drawable" format="reference" />
+        <!--the thumb inactivated is when you don't touch the thumb button-->
+        <attr name="trp_thumb_inactivated_drawable" format="reference" />
+        <attr name="trp_thumb_width" format="dimension" />
+        <attr name="trp_thumb_height" format="dimension" />
+        <attr name="trp_thumb_scale_ratio" format="float" />
+
+        <!--steps SeekBar-->
+        <attr name="trp_steps" format="integer" />
+        <attr name="trp_step_color" format="color" />
+        <attr name="trp_step_width" format="dimension" />
+        <attr name="trp_step_height" format="dimension" />
+        <attr name="trp_step_radius" format="dimension" />
+        <attr name="trp_step_auto_bonding" format="boolean" />
+        <attr name="trp_step_drawable" format="reference" />
+        <attr name="trpProgressPrimary" format="float" />
+        <attr name="trpProgressSecondary" format="float" />
+
+    </declare-styleable>
+
+    <declare-styleable name="TrpBottomNavigationView" />
+
+    <!--    <declare-styleable name="BpkCalendar">-->
+    <!--        <attr name="calendarDateSelectedBackgroundColor" format="color" />-->
+    <!--        <attr name="calendarDateSelectedSameDayBackgroundColor" format="color" />-->
+    <!--        <attr name="calendarDateSelectedRangeBackgroundColor" format="color" />-->
+    <!--        <attr name="calendarDateSelectedTextColor" format="color" />-->
+    <!--        <attr name="calendarRangeTextColor" format="color" />-->
+    <!--    </declare-styleable>-->
+    <!--    <attr name="bpkCalendarStyle" format="reference" />-->
+
+    <declare-styleable name="TrpBadgeView">
+        <attr name="trpIconTint" format="reference|color" />
+        <attr name="tabIcon" format="reference" />
+        <attr name="badgeContent" format="string" />
+        <attr name="showBadge" format="boolean" />
+        <attr name="android:text" />
+        <!--    Text Attribute    -->
+        <attr name="trpTextStyle" />
+        <attr name="trpWeight" />
+        <attr name="android:textColor" />
+        <attr name="trpColorLink" />
+        <attr name="trpLayoutDirection" />
+        <attr name="trpHtmlText" />
+        <attr name="trpHtmlUnderLine" />
+        <attr name="android:textAllCaps" />
+        <attr name="trpIconSize" />
+        <!--    Icon Attribute    -->
+        <attr name="trpRatio" />
+    </declare-styleable>
+</resources>

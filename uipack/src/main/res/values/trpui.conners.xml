@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="trp_corner_rectangle">0dp</dimen>
+    <dimen name="trp_corner_small">4dp</dimen>
+    <dimen name="trp_corner_regular">8dp</dimen>
+    <dimen name="trp_corner_medium">16dp</dimen>
+</resources>

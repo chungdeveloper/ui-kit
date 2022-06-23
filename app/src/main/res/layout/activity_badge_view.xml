@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".BadgeViewActivity">
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/trp_uipack_dip_10">
+
+            <com.chungld.uipack.tab.TrpBadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uikit_lorem"
+                app:badgeContent="20"
+                app:tabIcon="@drawable/ic_trp_uipack_holding_time"
+                app:trpIconSize="bigger"
+                app:trpTextStyle="overline"
+                app:trpWeight="regular" />
+
+            <com.chungld.uipack.tab.TrpBadgeView
+                android:id="@+id/trpBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uikit_lorem"
+                android:textColor="@color/trpColorAccent"
+                app:badgeContent="20"
+                app:showBadge="true"
+                app:tabIcon="@drawable/ic_trp_uipack_holding_time"
+                app:trpIconSize="bigger"
+                app:trpTextStyle="overline"
+                app:trpWeight="regular" />
+
+            <com.chungld.uipack.tab.TrpBadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uikit_lorem"
+                app:showBadge="true"
+                app:tabIcon="@drawable/ic_trp_uipack_holding_time"
+                app:trpIconSize="medium"
+                app:trpTextStyle="overline"
+                app:trpWeight="regular" />
+
+            <com.chungld.uipack.tab.TrpBadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uikit_lorem"
+                android:textColor="@color/trpColorPrimary"
+                app:badgeContent="20"
+                app:showBadge="true"
+                app:tabIcon="@drawable/ic_trp_uipack_holding_time"
+                app:trpIconSize="bigger"
+                app:trpTextStyle="overline"
+                app:trpWeight="regular" />
+
+            <com.chungld.uipack.tab.TrpBadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uikit_lorem"
+                app:badgeContent="1001"
+                app:showBadge="true"
+                app:tabIcon="@drawable/ic_trp_uipack_holding_time"
+                app:trpIconSize="bigger"
+                app:trpIconTint="@color/trpColorPrimary"
+                app:trpTextStyle="overline"
+                app:trpWeight="regular" />
+
+
+        </com.google.android.material.chip.ChipGroup>
+
+    </ScrollView>
+</layout>

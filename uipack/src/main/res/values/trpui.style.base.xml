@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TrpBaseFontStyle">
+        <item name="trpFontFamilyRegular">sans-serif</item>
+        <item name="trpFontFamilyLight">sans-serif-light</item>
+        <item name="trpFontFamilyMedium">sans-serif-medium</item>
+
+        <item name="trpTextH1DefaultAppearance">@style/trpTextH1.Light</item>
+        <item name="trpTextH2DefaultAppearance">@style/trpTextH2.Light</item>
+        <item name="trpTextH3DefaultAppearance">@style/trpTextH3</item>
+        <item name="trpTextH4DefaultAppearance">@style/trpTextH4</item>
+        <item name="trpTextH5DefaultAppearance">@style/trpTextH5</item>
+        <item name="trpTextH6DefaultAppearance">@style/trpTextH6.Medium</item>
+        <item name="trpTextSUB1DefaultAppearance">@style/trpTextSub1</item>
+        <item name="trpTextSUB2DefaultAppearance">@style/trpTextSub2.Medium</item>
+        <item name="trpTextSUB3DefaultAppearance">@style/trpTextSub3.Medium</item>
+        <item name="trpTextSUB4DefaultAppearance">@style/trpTextSub4.Medium</item>
+        <item name="trpTextBODY1DefaultAppearance">@style/trpTextBody1</item>
+        <item name="trpTextBODY2DefaultAppearance">@style/trpTextBody2</item>
+        <item name="trpTextBUTTONDefaultAppearance">@style/trpTextButton.Medium</item>
+        <item name="trpTextCAPTIONDefaultAppearance">@style/trpTextCaption</item>
+        <item name="trpTextOVERLINEDefaultAppearance">@style/trpTextOverLine</item>
+        <item name="trpTextNotifyDefaultAppearance">@style/trpTextNotify</item>
+
+        <item name="trpTextH1LightAppearance">@style/trpTextH1.Light</item>
+        <item name="trpTextH2LightAppearance">@style/trpTextH2.Light</item>
+        <item name="trpTextH3LightAppearance">@style/trpTextH3.Light</item>
+        <item name="trpTextH4LightAppearance">@style/trpTextH4.Light</item>
+        <item name="trpTextH5LightAppearance">@style/trpTextH5.Light</item>
+        <item name="trpTextH6LightAppearance">@style/trpTextH6.Light</item>
+        <item name="trpTextSUB1LightAppearance">@style/trpTextSub1.Light</item>
+        <item name="trpTextSUB2LightAppearance">@style/trpTextSub2.Light</item>
+        <item name="trpTextSUB3LightAppearance">@style/trpTextSub3.Light</item>
+        <item name="trpTextSUB4LightAppearance">@style/trpTextSub4.Light</item>
+        <item name="trpTextBODY1LightAppearance">@style/trpTextBody1.Light</item>
+        <item name="trpTextBODY2LightAppearance">@style/trpTextBody2.Light</item>
+        <item name="trpTextBUTTONLightAppearance">@style/trpTextButton.Light</item>
+        <item name="trpTextCAPTIONLightAppearance">@style/trpTextCaption.Light</item>
+        <item name="trpTextOVERLINELightAppearance">@style/trpTextOverLine.Light</item>
+        <item name="trpTextNotifyLightAppearance">@style/trpTextNotify.Light</item>
+
+        <item name="trpTextH1RegularAppearance">@style/trpTextH1</item>
+        <item name="trpTextH2RegularAppearance">@style/trpTextH2</item>
+        <item name="trpTextH3RegularAppearance">@style/trpTextH3</item>
+        <item name="trpTextH4RegularAppearance">@style/trpTextH4</item>
+        <item name="trpTextH5RegularAppearance">@style/trpTextH5</item>
+        <item name="trpTextH6RegularAppearance">@style/trpTextH6</item>
+        <item name="trpTextSUB1RegularAppearance">@style/trpTextSub1</item>
+        <item name="trpTextSUB2RegularAppearance">@style/trpTextSub2</item>
+        <item name="trpTextSUB3RegularAppearance">@style/trpTextSub3</item>
+        <item name="trpTextSUB4RegularAppearance">@style/trpTextSub4</item>
+        <item name="trpTextBODY1RegularAppearance">@style/trpTextBody1</item>
+        <item name="trpTextBODY2RegularAppearance">@style/trpTextBody2</item>
+        <item name="trpTextBUTTONRegularAppearance">@style/trpTextButton</item>
+        <item name="trpTextCAPTIONRegularAppearance">@style/trpTextCaption</item>
+        <item name="trpTextOVERLINERegularAppearance">@style/trpTextOverLine</item>
+        <item name="trpTextNotifyRegularAppearance">@style/trpTextNotify</item>
+
+        <item name="trpTextH1MediumAppearance">@style/trpTextH1.Medium</item>
+        <item name="trpTextH2MediumAppearance">@style/trpTextH2.Medium</item>
+        <item name="trpTextH3MediumAppearance">@style/trpTextH3.Medium</item>
+        <item name="trpTextH4MediumAppearance">@style/trpTextH4.Medium</item>
+        <item name="trpTextH5MediumAppearance">@style/trpTextH5.Medium</item>
+        <item name="trpTextH6MediumAppearance">@style/trpTextH6.Medium</item>
+        <item name="trpTextSUB1MediumAppearance">@style/trpTextSub1.Medium</item>
+        <item name="trpTextSUB2MediumAppearance">@style/trpTextSub2.Medium</item>
+        <item name="trpTextSUB3MediumAppearance">@style/trpTextSub3.Medium</item>
+        <item name="trpTextSUB4MediumAppearance">@style/trpTextSub4.Medium</item>
+        <item name="trpTextBODY1MediumAppearance">@style/trpTextBody1.Medium</item>
+        <item name="trpTextBODY2MediumAppearance">@style/trpTextBody2.Medium</item>
+        <item name="trpTextBUTTONMediumAppearance">@style/trpTextButton.Medium</item>
+        <item name="trpTextCAPTIONMediumAppearance">@style/trpTextCaption.Medium</item>
+        <item name="trpTextOVERLINEMediumAppearance">@style/trpTextOverLine.Medium</item>
+        <item name="trpTextNotifyMediumAppearance">@style/trpTextNotify.Medium</item>
+
+    </style>
+
+    <style name="TrpBaseThemeStyle">
+        <item name="trpTextBaseColor">#212121</item>
+        <item name="trpIndicatorActive">#FF9800</item>
+        <item name="trpIndicatorDisable">#B1B1B1</item>
+
+        <item name="TrpButtonStyle">@style/TrpBaseButtonStyle</item>
+        <item name="TrpButtonProcessStyle">@style/TrpBaseButtonProcessStyle</item>
+        <item name="TrpSwitchStyle">@style/TrpSwitchBaseStyle</item>
+
+        <item name="TrpSpinnerStyle">@style/trpSpinnerStyleDef</item>
+        <item name="TrpFABDefStyle">@style/TrpFloatButtonDefault</item>
+        <item name="TrpSeekBarStyle">@style/TrpSeekBarStyleDefault</item>
+        <item name="TrpTabLayoutStyle">@style/TrpTabLayoutDefaultStyle</item>
+        <item name="TrpCheckboxStyle">@style/TrpCheckboxBaseStyle</item>
+        <item name="TrpRatingBarStyle">@style/TrpRatingBarDefStyle</item>
+    </style>
+
+</resources>
