@@ -3,7 +3,7 @@ package com.chungld.uikit
 import android.os.Bundle
 import android.os.Handler
 import com.chungld.uikit.databinding.ActivityButtonBinding
-import kotlinx.android.synthetic.main.activity_button.*
+import com.chungld.uipack.button.TrpProgressButton
 
 class ButtonActivity : BaseActivity<ActivityButtonBinding>() {
 
@@ -14,11 +14,13 @@ class ButtonActivity : BaseActivity<ActivityButtonBinding>() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        btnProcessButton.setOnClickListener {
-            btnProcessButton.trpLoading = true
+        findViewById<TrpProgressButton>(R.id.btnProcessButton)?.let { button ->
+            button.setOnClickListener {
+            button.trpLoading = true
             Handler().postDelayed({
-                btnProcessButton.trpLoading = false
+                button.trpLoading = false
             }, 3000)
+        }
         }
     }
 }

@@ -2,8 +2,9 @@ package com.chungld.uikit
 
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import com.chungld.uikit.databinding.ActivitySeekBarBinding
-import kotlinx.android.synthetic.main.activity_seek_bar.*
+import com.chungld.uipack.seekbar.TrpSeekBar
 
 class SeekBarActivity : BaseActivity<ActivitySeekBarBinding>() {
 
@@ -13,8 +14,8 @@ class SeekBarActivity : BaseActivity<ActivitySeekBarBinding>() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        tvHeader0.setOnClickListener {
-            seekBar.TrpSeekBarState[0].value
+        findViewById<View>(R.id.tvHeader0).setOnClickListener {
+            findViewById<TrpSeekBar>(R.id.seekBar).TrpSeekBarState[0].value
             Log.d("asdhjg", "asdas")
         }
     }

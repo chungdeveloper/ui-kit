@@ -1,14 +1,18 @@
 package com.chungld.uikit
 
 import android.os.Bundle
+import android.view.View
 import com.chungld.uikit.databinding.ActivityTrpRelativeBinding
-import kotlinx.android.synthetic.main.activity_trp_relative.*
+import com.chungld.uipack.viewGroup.TrpRelativeLayout
 
 class TrpRelativeActivity : BaseActivity<ActivityTrpRelativeBinding>() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        changeRadius.setOnClickListener {
-            rlRelative.setCornerRadius(30f, 30f, 30f, 40f)
+
+        findViewById<View>(R.id.changeRadius)?.let {
+            it.setOnClickListener {
+                findViewById<TrpRelativeLayout>(R.id.rlRelative).setCornerRadius(30f, 30f, 30f, 40f)
+            }
         }
     }
 

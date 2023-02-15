@@ -1,15 +1,14 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 32
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "com.chungld.uikit"
-        minSdkVersion 19
-        targetSdkVersion 32
+        minSdkVersion 21
+        targetSdkVersion 33
         versionCode 1
         versionName "1.0"
 
@@ -44,10 +43,10 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.appcompat:appcompat:1.4.2'
-    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.0-rc02'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.5.0-rc02'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.6.0-alpha05'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.6.0-alpha05'
     implementation project(path: ':uipack')
 }

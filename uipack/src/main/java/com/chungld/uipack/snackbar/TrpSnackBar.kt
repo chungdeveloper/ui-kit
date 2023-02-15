@@ -69,8 +69,9 @@ open class TrpSnackBar private constructor(
     private var title: CharSequence? = null
 
     fun setTitle(title: CharSequence): TrpSnackBar = apply {
-        this.title = title.toString()
-            .toUpperCase(ConfigurationCompat.getLocales(context.resources.configuration).get(0))
+        ConfigurationCompat.getLocales(context.resources.configuration).get(0)?.let {
+            this.title = title.toString().uppercase(it)
+        }
         updateTitleIfShown(isShown)
     }
 

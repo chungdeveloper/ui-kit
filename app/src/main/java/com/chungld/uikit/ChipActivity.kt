@@ -2,7 +2,7 @@ package com.chungld.uikit
 
 import android.os.Bundle
 import com.chungld.uikit.databinding.ActivityChipBinding
-import kotlinx.android.synthetic.main.activity_chip.*
+import com.chungld.uipack.chip.group.TrpChipGroup
 
 class ChipActivity : BaseActivity<ActivityChipBinding>() {
 
@@ -17,7 +17,7 @@ class ChipActivity : BaseActivity<ActivityChipBinding>() {
 
         mBinding.setVariable(BR.viewModel, viewModel)
 
-        chip.alwaysSelectOne = true
+        (findViewById<TrpChipGroup>(R.id.chip)).alwaysSelectOne = true
 //        cb1.setOnCheckedChangeListener { buttonView, isChecked ->
 //            buttonView.isChecked = !buttonView.isChecked
 //        }

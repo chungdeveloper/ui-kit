@@ -1,10 +1,10 @@
 package com.chungld.uikit
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.chungld.uipack.nav.getOrCreateBadgeAt
 import com.chungld.uipack.nav.getOrCreateBadgeById
-import kotlinx.android.synthetic.main.activity_bottom_navigation.*
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class BottomNavigationActivity : AppCompatActivity() {
 
@@ -12,12 +12,14 @@ class BottomNavigationActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bottom_navigation)
 
-        vBottomNavigation.getOrCreateBadgeAt(0)?.apply {
+        val nav = findViewById<BottomNavigationView>(R.id.vBottomNavigation);
+
+        nav.getOrCreateBadgeAt(0)?.apply {
             setBadgeContent("20")
             showBadge(true)
         }
 
-        vBottomNavigation.getOrCreateBadgeById(R.id.navigation_notifications)?.apply {
+        nav.getOrCreateBadgeById(R.id.navigation_notifications)?.apply {
             setBadgeContent("20")
             showBadge(true)
         }

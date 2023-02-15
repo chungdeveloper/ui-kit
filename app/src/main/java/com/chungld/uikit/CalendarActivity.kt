@@ -2,11 +2,12 @@ package com.chungld.uikit
 
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import com.chungld.uikit.databinding.ActivityCalendarBinding
+import com.chungld.uipack.calendar.CalendarVerticalView
 import com.chungld.uipack.calendar.CalendarView
 import com.chungld.uipack.calendar.TrpCalendar
 import com.chungld.uipack.calendar.model.TicketHuntBundle
-import kotlinx.android.synthetic.main.activity_calendar.*
 import java.math.BigDecimal
 import java.util.*
 
@@ -24,52 +25,54 @@ class CalendarActivity : BaseActivity<ActivityCalendarBinding>() {
         val minDate = Calendar.getInstance().apply {
             add(Calendar.MONTH, -2)
         }
-        calendarView.setRange(minDate, maxDate)
 
-        val currentDate = TrpCalendar()
-        currentDate.day = 23
-        currentDate.month = 2
-        currentDate.year = 2021
+        findViewById<CalendarVerticalView>(R.id.calendarView)?.let { calendarView ->
 
-        calendarView.setCurrentSelected(currentDate)
+            calendarView.setRange(minDate, maxDate)
+
+            val currentDate = TrpCalendar()
+            currentDate.day = 23
+            currentDate.month = 2
+            currentDate.year = 2021
+
+            calendarView.setCurrentSelected(currentDate)
 
 //        calendarView.setSelectRangeMode()
 //        calendarView.setMonthView(javaClass<HuntTicketRangeMonthView>);
 
-        val endRangeDate = Calendar.getInstance()
-        endRangeDate.add(Calendar.MONTH, 3);
+            val endRangeDate = Calendar.getInstance()
+            endRangeDate.add(Calendar.MONTH, 3);
 
-        calendarView.setSelectStartCalendar(TrpCalendar().setTime(Calendar.getInstance().time))
-        calendarView.setSelectEndCalendar(TrpCalendar().setTime(endRangeDate.time))
+            calendarView.setSelectStartCalendar(TrpCalendar().setTime(Calendar.getInstance().time))
+            calendarView.setSelectEndCalendar(TrpCalendar().setTime(endRangeDate.time))
 
-        val minPrice = HashMap<String, BigDecimal>()
-        minPrice["10-2020"] = BigDecimal.valueOf(60000)
-        minPrice["11-2020"] = BigDecimal.valueOf(70000)
+            val minPrice = HashMap<String, BigDecimal>()
+            minPrice["10-2020"] = BigDecimal.valueOf(60000)
+            minPrice["11-2020"] = BigDecimal.valueOf(70000)
 
-        val bundle = TicketHuntBundle()
-        bundle.setPriceMap(mockPrice())
-        bundle.setPriceMinMap(minPrice)
-        calendarView.setAdditionData(bundle)
-        calendarView.setOnCalendarRangeSelectListener(object :
-            CalendarView.OnCalendarRangeSelectListener {
-            override fun onCalendarSelectOutOfRange(calendar: TrpCalendar?) {
-                Log.d("TAG", "onSelectOutOfRange: " + calendar)
+            val bundle = TicketHuntBundle()
+            bundle.setPriceMap(mockPrice())
+            bundle.setPriceMinMap(minPrice)
+            calendarView.setAdditionData(bundle)
+            calendarView.setOnCalendarRangeSelectListener(object :
+                CalendarView.OnCalendarRangeSelectListener {
+                override fun onCalendarSelectOutOfRange(calendar: TrpCalendar?) {
+                    Log.d("TAG", "onSelectOutOfRange: $calendar")
+                }
+
+                override fun onSelectOutOfRange(calendar: TrpCalendar?, isOutOfMinRange: Boolean) {
+                    Log.d("TAG", "onSelectOutOfRange: $calendar")
+                }
+
+                override fun onCalendarRangeSelect(calendar: TrpCalendar?, isEnd: Boolean) {
+                    Log.d("TAG", "onSelectOutOfRange: $calendar")
+                }
+            })
+            findViewById<View>(R.id.btnReset).setOnClickListener {
+                calendarView.scrollToCurrent()
             }
-
-            override fun onSelectOutOfRange(calendar: TrpCalendar?, isOutOfMinRange: Boolean) {
-                Log.d("TAG", "onSelectOutOfRange: " + calendar)
-            }
-
-            override fun onCalendarRangeSelect(calendar: TrpCalendar?, isEnd: Boolean) {
-                Log.d("TAG", "onSelectOutOfRange: " + calendar)
-            }
-        })
-
-        btnReset.setOnClickListener {
-//            calendarView.clearSelectRange()
-            calendarView.scrollToCurrent()
-//            calendarView.clearSingleSelect()
         }
+
     }
 
     private fun mockPrice(): HashMap<String, BigDecimal>? {

@@ -1,8 +1,9 @@
 package com.chungld.uikit
 
 import android.os.Bundle
+import android.view.View
 import com.chungld.uikit.databinding.ActivityRatingPointBinding
-import kotlinx.android.synthetic.main.activity_rating_point.*
+import com.chungld.uipack.rating.indicator.TrpRatingPoint
 
 class RatingPointActivity : BaseActivity<ActivityRatingPointBinding>() {
 
@@ -12,8 +13,8 @@ class RatingPointActivity : BaseActivity<ActivityRatingPointBinding>() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        btnChangeValue.setOnClickListener {
-            rating0.text = "30"
+        findViewById<View>(R.id.btnChangeValue).setOnClickListener {
+            findViewById<TrpRatingPoint>(R.id.rating0).text = "30"
         }
     }
 }

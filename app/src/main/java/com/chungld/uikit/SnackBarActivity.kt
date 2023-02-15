@@ -5,7 +5,6 @@ import android.view.View
 import android.widget.Toast
 import com.chungld.uikit.databinding.ActivitySnackBarActivityBinding
 import com.chungld.uipack.snackbar.TrpSnackBar
-import kotlinx.android.synthetic.main.activity_snack_bar_activity.*
 
 
 class SnackBarActivity : BaseActivity<ActivitySnackBarActivityBinding>() {
